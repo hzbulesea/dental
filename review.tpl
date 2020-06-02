@@ -19,23 +19,36 @@
     </button>
     <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
         <ul class="navbar-nav" id="font_menu_24">
-            <li class="nav-item ">
+            <li class="nav-item">
                 <a class="nav-link" href="/">Home </a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item">
                 <a class="nav-link" href="about">About</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="service">Service</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Service
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
+                    <a class="dropdown-item" href="compre">Comprehensive Care</a>
+                    <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
+                    <a class="dropdown-item" href="emergency">Emergency Care</a>
+                    <a class="dropdown-item" href="surgery">Oral Surgery</a>
+                    <a class="dropdown-item" href="implants">Implants</a>
+                    <a class="dropdown-item" href="canals">Root Canals</a>
+                    <a class="dropdown-item" href="whitening">Teeth Whitening</a>
+                    <a class="dropdown-item" href="filings">White Filings</a>
+                </div>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Review<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Review <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact">Contact</a>
             </li>
         </ul>
-        <img src="images/icons8-phone-25.png">
+        <img src="/images/icons8-phone-25.png">
     </div>
 </nav>
 

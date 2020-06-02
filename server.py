@@ -24,9 +24,9 @@ def review():
 def contact():
     return template("contact")
 
-@get('/service/comprehensive')
-def comprehensive():
-    return template("comprehensive")
+@get('/compre')
+def compre():
+    return template("compre")
 
 
 

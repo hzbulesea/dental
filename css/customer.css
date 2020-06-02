@@ -14,6 +14,12 @@
 .service_text_align{
     text-align: left !important;
 }
+
+.service_text_side_title{
+    text-align: left !important;
+    font-weight: bold;
+}
+
 .about_title_weight{
     font-weight: bold;
 }
