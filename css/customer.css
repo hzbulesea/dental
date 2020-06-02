@@ -1,0 +1,29 @@
+#font_menu_24{
+    font-size: 24px;
+}
+.team_member_infor{
+    font-size: 14px !important;
+}
+.team_member_title{
+    font-weight: bold !important;
+}
+.home_title{
+    text-align: left !important;
+}
+
+.service_text_align{
+    text-align: left !important;
+}
+.about_title_weight{
+    font-weight: bold;
+}
+.about_side_title_color{
+    color: grey;
+}
+.about_para_size{
+    font-size: smaller;
+}
+.turquoise	{
+    background-color: #00ccff;
+}
+

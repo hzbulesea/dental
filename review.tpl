@@ -1,0 +1,77 @@
+<head>
+    <!-- The line below includes stupid.css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/customer.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/cutomer.js"></script>
+    <title>Dentist San Mateo, CA | Dr. Allen Lee | Dentist San Mateo CA</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
+    <img src="images/logo.png" style="width:15%; float: left; ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav" id="font_menu_24">
+            <li class="nav-item ">
+                <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="service">Service</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Review<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact">Contact</a>
+            </li>
+        </ul>
+        <img src="images/icons8-phone-25.png">
+    </div>
+</nav>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="item1 active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="item2 "></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="item3 "></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3" class="item3 "></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4" class="item3 "></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/item01.jpg" alt="Check teeth" width="100%" height="auto">
+        </div>
+        <div class="carousel-item">
+            <img src="images/item02.jpg" alt="Family" width="100%" height="auto">
+        </div>
+        <div class="carousel-item">
+            <img src="images/item03.jpg" alt="Dad and daughter" width="100%" height="auto">
+        </div>
+        <div class="carousel-item">
+            <img src="images/item04.jpg" alt="Brush teeth" width="100%" height="auto">
+        </div>
+        <div class="carousel-item">
+            <img src="images/item05.jpg" alt="Couple" width="100%" height="auto">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+</body>
