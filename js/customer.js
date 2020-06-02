@@ -30,3 +30,19 @@ $(document).ready(function () {
     $("#profile01").height(profilehight);
     $("#profile03").height(profilehight);
 });
+
+$(window).resize(function () { 
+    var height1 = $("#head_height").height(); 
+    //this.alert(height1)
+    var height2 = $("#img_height").height();
+    var height3 = $("#appoint").height();
+    //this.alert(height2)
+    // $( "appoint" ).last().offset({ top: 0});
+
+
+    // var p = $( "appoint" ).first();
+    // var position = p.position();
+    // $( "p" ).last().text( "left: " + position.left + ", top: " + position.top );
+
+    // this.alert
+});

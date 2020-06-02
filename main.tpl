@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
+<nav id = "head_height" class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
     <img src="images/logo.png" style="width:15%; float: left; ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
             aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -53,7 +53,7 @@
     </div>
 </nav>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="item1 active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1" class="item2 "></li>
@@ -61,7 +61,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="3" class="item3 "></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="4" class="item3 "></li>
     </ol>
-    <div class="carousel-inner">
+    <div id = "img_height" class="carousel-inner" style=“position:relative;”>
         <div class="carousel-item active">
             <img src="images/item01.jpg" alt="Check teeth" width="100%" height="auto">
         </div>
@@ -78,6 +78,7 @@
             <img src="images/item05.jpg" alt="Couple" width="100%" height="auto">
         </div>
     </div>
+    <a href=""><img id = "appoint" src="/images/appointment.png" style="width:30%; float: right; position: fixed; right: 30px; top: 500px; z-index:9999;"></a>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>

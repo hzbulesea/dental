@@ -31,7 +31,7 @@
                     Service
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
-                    <a class="dropdown-item" href="#">Comprehensive Care</a>
+                    <a class="dropdown-item active" href="#">Comprehensive Care</a>
                     <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
                     <a class="dropdown-item" href="emergency">Emergency Care</a>
                     <a class="dropdown-item" href="surgery">Oral Surgery</a>

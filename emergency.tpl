@@ -1,7 +1,7 @@
 <head>
     <!-- The line below includes stupid.css -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="css/customer.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/customer.css" rel="stylesheet" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
@@ -12,7 +12,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark turquoise">
-    <img src="images/logo.png" style="width:15%; float: left; ">
+    <img src="/images/logo.png" style="width:15%; float: left; ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
             aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
             class="navbar-toggler-icon"></span>
@@ -31,9 +31,9 @@
                     Service
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
-                    <a class="dropdown-item" href="comprehensive">Comprehensive Care</a>
+                    <a class="dropdown-item" href="compre">Comprehensive Care</a>
                     <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
-                    <a class="dropdown-item" href="emergency">Emergency Care</a>
+                    <a class="dropdown-item active" href="#">Emergency Care</a>
                     <a class="dropdown-item" href="surgery">Oral Surgery</a>
                     <a class="dropdown-item" href="implants">Implants</a>
                     <a class="dropdown-item" href="canals">Root Canals</a>
@@ -48,7 +48,7 @@
                 <a class="nav-link" href="contact">Contact</a>
             </li>
         </ul>
-        <img src="images/icons8-phone-25.png">
+        <img src="/images/icons8-phone-25.png">
     </div>
 </nav>
 
@@ -62,19 +62,19 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/item01.jpg" alt="Check teeth" width="100%" height="auto">
+            <img src="/images/item01.jpg" alt="Check teeth" width="100%" height="auto">
         </div>
         <div class="carousel-item">
-            <img src="images/item02.jpg" alt="Family" width="100%" height="auto">
+            <img src="/images/item02.jpg" alt="Family" width="100%" height="auto">
         </div>
         <div class="carousel-item">
-            <img src="images/item03.jpg" alt="Dad and daughter" width="100%" height="auto">
+            <img src="/images/item03.jpg" alt="Dad and daughter" width="100%" height="auto">
         </div>
         <div class="carousel-item">
-            <img src="images/item04.jpg" alt="Brush teeth" width="100%" height="auto">
+            <img src="/images/item04.jpg" alt="Brush teeth" width="100%" height="auto">
         </div>
         <div class="carousel-item">
-            <img src="images/item05.jpg" alt="Couple" width="100%" height="auto">
+            <img src="/images/item05.jpg" alt="Couple" width="100%" height="auto">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -88,38 +88,29 @@
 </div>
 
 <section class="jumbotron text-center">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Service</li>
-        </ol>
-    </nav>
     <div class="container">
-        <h1 class="jumbotron-heading service_text_align">Service</h1>
+        <h1 class="jumbotron-heading service_text_align">Emergency Care </h1>
         <br/>
-        <h3 class="lead text-muted service_text_align "><a href="#">COMPREHENSIVE SMILE CARE</a></h3>
-        <br/>
+        <h3 class="lead text-muted service_text_side_title">What’s bothering you?</h3>
+        <h5 class="lead text-muted service_text_align">
+            <ul>
+                <li>Oral cancer</li>
+                <li>Periodontal disease, bone loss, and tissue infection</li>
+                <li>Integrity of existing dental restorations</li>
+                <li>Oral symptoms of systemic diseases or medical conditions</li>
+                <li>New areas of decay</li>
+                <li>Bite alignment (orthodontic evaluation)</li>
+                <li>Bruxism and grinding</li>
+                <li>TMJ disorders</li>
+            </ul>
+        </h5>
+        <br/><br/>
 
-        <h3 class="lead text-muted service_text_align "><a href="#">Dental Veneers, Crowns & Bridges</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Emergency Care</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Oral Surgery</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Implants</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Root Canals</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Teeth Whitening</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">White Fillings</a></h3>
-        <br/>
+        <h3 class="lead text-muted service_text_side_title ">Suffering from a dental emergency?</h3>
+        <h5 class="lead text-muted service_text_align">
+        If your mouth is in pain, contact us at (650) 342–8874 and tell us what’s going on. We’ll give you advice on how to control the situation and limit pain until you can get into our office. We offer same day appointments and will do everything we can to schedule you as quickly as possible.
+Whether you’re a brand new patient or have been coming to us for years, we’ll help ease any pain and restore the health of your teeth and gums in no time. 
+        </h5>
     </div>
 </section>
 

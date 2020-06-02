@@ -28,6 +28,33 @@ def contact():
 def compre():
     return template("compre")
 
+@get('/veneers')
+def veneers():
+    return template("veneers")
+
+@get('/emergency')
+def emergency():
+    return template("emergency")
+
+@get('/surgery')
+def surgery():
+    return template("surgery")
+
+@get('/implants')
+def implants():
+    return template("implants")
+  
+@get('/canals')
+def canals():
+    return template("canals")
+
+@get('/whitening')
+def whitening():
+    return template("whitening")
+
+@get('/filings')
+def filings():
+    return template("filings")
 
 
 ################################################################################

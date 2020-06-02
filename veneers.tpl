@@ -1,7 +1,7 @@
 <head>
     <!-- The line below includes stupid.css -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="css/customer.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/customer.css" rel="stylesheet" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
@@ -12,7 +12,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark turquoise">
-    <img src="images/logo.png" style="width:15%; float: left; ">
+    <img src="/images/logo.png" style="width:15%; float: left; ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
             aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
             class="navbar-toggler-icon"></span>
@@ -31,8 +31,8 @@
                     Service
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
-                    <a class="dropdown-item" href="comprehensive">Comprehensive Care</a>
-                    <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
+                    <a class="dropdown-item" href="compre">Comprehensive Care</a>
+                    <a class="dropdown-item active" href="#">Dental Veneers, Crowns & Bridges</a>
                     <a class="dropdown-item" href="emergency">Emergency Care</a>
                     <a class="dropdown-item" href="surgery">Oral Surgery</a>
                     <a class="dropdown-item" href="implants">Implants</a>
@@ -48,7 +48,7 @@
                 <a class="nav-link" href="contact">Contact</a>
             </li>
         </ul>
-        <img src="images/icons8-phone-25.png">
+        <img src="/images/icons8-phone-25.png">
     </div>
 </nav>
 
@@ -62,19 +62,19 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/item01.jpg" alt="Check teeth" width="100%" height="auto">
+            <img src="/images/item01.jpg" alt="Check teeth" width="100%" height="auto">
         </div>
         <div class="carousel-item">
-            <img src="images/item02.jpg" alt="Family" width="100%" height="auto">
+            <img src="/images/item02.jpg" alt="Family" width="100%" height="auto">
         </div>
         <div class="carousel-item">
-            <img src="images/item03.jpg" alt="Dad and daughter" width="100%" height="auto">
+            <img src="/images/item03.jpg" alt="Dad and daughter" width="100%" height="auto">
         </div>
         <div class="carousel-item">
-            <img src="images/item04.jpg" alt="Brush teeth" width="100%" height="auto">
+            <img src="/images/item04.jpg" alt="Brush teeth" width="100%" height="auto">
         </div>
         <div class="carousel-item">
-            <img src="images/item05.jpg" alt="Couple" width="100%" height="auto">
+            <img src="/images/item05.jpg" alt="Couple" width="100%" height="auto">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -88,38 +88,43 @@
 </div>
 
 <section class="jumbotron text-center">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Service</li>
-        </ol>
-    </nav>
     <div class="container">
-        <h1 class="jumbotron-heading service_text_align">Service</h1>
+        <h1 class="jumbotron-heading service_text_align">Dental Veneers, Crowns & Bridges</h1>
         <br/>
-        <h3 class="lead text-muted service_text_align "><a href="#">COMPREHENSIVE SMILE CARE</a></h3>
+        <h3 class="lead text-muted service_text_side_title">Dental Veneers</h3>
+        <h5 class="lead text-muted service_text_align">
+        Dental veneers are thin, shell-like restorations that are used to cover uneven tooth surfaces. Veneers can transform your smile dramatically. A set of veneers can correct chips, stains, and even deeply discolored teeth. They can also alter the length and size of teeth, or help teeth that seem rotated suddenly appear straight.
+        </h5>
+        <div class ="image_left">
+            <img src="/images/veneers.jpg" style="width:50%;">
+        </div>
+        <br/><br/>
+
+        <h3 class="lead text-muted service_text_side_title ">Crowns</h3>
+        <h5 class="lead text-muted service_text_align">
+        Crowns are full-coverage restorations that are used to cover a tooth that is likely to break or is too damaged to be corrected with a traditional filling. They can also provide a good aesthetic result. 
+        </h5>
+        <div class ="image_left">
+            <img src="/images/crown.jpg" style="width:50%;">
+        </div>
+        <br/><br/>
+
+        <h3 class="lead text-muted service_text_side_title ">Bridges</h3>
+        <h5 class="lead text-muted service_text_align">
+        A dental bridge is made up of two crowns bonded to an artificial tooth in the middle. These three or four “teeth” form the “bridge” that is bonded into place to solve your missing tooth dilemma. It is made of tooth-coloured materials to match your other teeth.
+        </h5>
+        <div class ="image_left">
+            <img src="/images/bridges.jpg" style="width:50%;">
+        </div>
         <br/>
 
-        <h3 class="lead text-muted service_text_align "><a href="#">Dental Veneers, Crowns & Bridges</a></h3>
+
+        <h3 class="lead text-muted service_text_side_title ">What You Expect From Us</h3>
+        <h5 class="lead text-muted service_text_align">
+        All of our veneers, crowns and bridges are custom made to complement your smile’s unique anatomy and color. After preparing your tooth and having the new restoration designed by hand, the final crown or bridge is ready to bond into place about two weeks later. They also promote better dental health and also serves as a cosmetic solution.
+        </h5>
         <br/>
 
-        <h3 class="lead text-muted service_text_align "><a href="#">Emergency Care</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Oral Surgery</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Implants</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Root Canals</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">Teeth Whitening</a></h3>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align "><a href="#">White Fillings</a></h3>
-        <br/>
     </div>
 </section>
 
