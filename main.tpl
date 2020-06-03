@@ -53,6 +53,15 @@
     </div>
 </nav>
 
+<div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom:0px !important;">
+  <div class = "message_align"><h1>We’re Open!</h1></div>
+  <div class = "message_align"><p>Bay Star Dental is now open for clinical appointments (cleanings, fillings, crowns, implants, extractions).</p>
+<p><a href="#">Click here</a> to read an update from Dr. Zhang regarding COVID-19 safety measures and what to expect at your next appointment.</p></div>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="item1 active"></li>
@@ -78,7 +87,10 @@
             <img src="images/item05.jpg" alt="Couple" width="100%" height="auto">
         </div>
     </div>
-    <a href=""><img id = "appoint" src="/images/appointment.png" style="width:30%; float: right; position: fixed; right: 30px; top: 500px; z-index:9999;"></a>
+
+    <!-- appointment button -->
+    <img type="button" data-toggle="modal" data-target="#exampleModalCenter" id = "appoint" src="/images/appointment.png" style="width:30%; float: right; position: fixed; right: 30px; top: 500px; z-index:5;">
+    
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -87,6 +99,51 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Make an Appointment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="mailto:hzbulesea@gmail.com">
+        
+            <div class="form-row">
+                <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label"></label>
+            <input type="text" class="form-control" id="email_address" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="phone_number" placeholder="Phone">
+          </div>
+
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary" >Send</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <main role="main">
