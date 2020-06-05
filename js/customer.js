@@ -29,6 +29,8 @@ $(document).ready(function () {
     var profilehight = $("#profile02").height();
     $("#profile01").height(profilehight);
     $("#profile03").height(profilehight);
+
+    $("#right_container").height($("#left_container").height);
 });
 
 $(window).resize(function () { 

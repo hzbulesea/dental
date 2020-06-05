@@ -8,6 +8,19 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/customer.js"></script>
     <title>Dentist San Mateo, CA | Dr. Allen Lee | Dentist San Mateo CA</title>
+        <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
 </head>
 
 <body>
@@ -88,7 +101,9 @@
 </div>
 
 <section class="jumbotron text-center">
-    <div class="container">
+ <div class="container">
+  <div class="row">
+    <div class="col-sm">
         <h1 class="jumbotron-heading service_text_align">Contact</h1>
         <br/>
         <h3 class="lead text-muted service_text_align ">PHONE:</h3>
@@ -96,11 +111,11 @@
         <br/>
 
         <h3 class="lead text-muted service_text_align ">EMAIL:</h3>
-        <p class="lead text-muted service_text_align team_member_infor">406 N San Mateo Dr. Suite B, San Mateo, CA94401</p>
+        <p class="lead text-muted service_text_align team_member_infor">baystardental@gmail.com</p>
         <br/>
 
-        <h3 class="lead text-muted service_text_align ">ADDRESS</h3>
-        <p class="lead text-muted service_text_align team_member_infor">ADDRESS:</p>
+        <h3 class="lead text-muted service_text_align ">ADDRESS:</h3>
+        <p class="lead text-muted service_text_align team_member_infor">406 N San Mateo Dr. Suite B, San Mateo, CA94401</p>
         <br/>
 
         <h3 class="lead text-muted service_text_align ">WORKING HOURS:</h3>
@@ -113,5 +128,31 @@
         <p class="lead text-muted service_text_align team_member_infor">SUNDAY: 9:00 AM - 6:00 PM</p>
         <br/>
     </div>
+    <div class="col-sm" >
+      <div id="map"></div>
+    </div>
+  </div>
+</div>
 </section>
+
+<script>
+
+      function initMap() {
+        var myLatLng = {lat: 37.572340, lng: -122.332610};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Bay Star Dental'+'\n406 N San Mateo Dr. Suite B, San Mateo, CA94401'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfB2MdmCUUxEvq0DsPLtumwx8qm9ElUyc&callback=initMap">
+    </script>
 </body>
