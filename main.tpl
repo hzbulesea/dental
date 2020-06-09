@@ -50,6 +50,7 @@
             </li>
         </ul>
         <img src="/images/icons8-phone-25.png">
+
     </div>
 </nav>
 
@@ -89,8 +90,8 @@
     </div>
 
     <!-- appointment button -->
-    <img type="button" data-toggle="modal" data-target="#exampleModalCenter" id = "appoint" src="/images/appointment.png" style="width:30%; float: right; position: fixed; right: 30px; top: 500px; z-index:5;">
-    
+    <button data-toggle="modal" data-target="#exampleModalCenter" id = "appoint" style="width:300px;height:60px;font-size: large;font-weight: bold;border: 1px solid transparent; border-radius: 100px;color:white;background-color: #00ccff; float: right; position: fixed; right: 30px; top: 500px; z-index:5;" type="button">MAKE AN APPOINTMENT</button>
+
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -113,7 +114,7 @@
       </div>
       <div class="modal-body">
         <form action="mailto:hzbulesea@gmail.com">
-        
+
             <div class="form-row">
                 <div class="col">
                 <input type="text" class="form-control" placeholder="First name">
@@ -122,7 +123,7 @@
                 <input type="text" class="form-control" placeholder="Last name">
                 </div>
             </div>
-            
+
           <div class="form-group">
             <label for="recipient-name" class="col-form-label"></label>
             <input type="text" class="form-control" id="email_address" placeholder="Email">

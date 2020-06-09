@@ -39,5 +39,30 @@
     text-align: center;
 }
 
+.img_appoint{
+    width:450px;
+    height:90px;
+    border-radius: 100px;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #00ccff;
+    color:white;
+}
+#appoint{
+    width:300px;
+    height:60px;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid transparent; 
+    border-radius: 100px;
+    color:white;
+    background-color: #00ccff; 
+    float: right; 
+    position: fixed; 
+    right: 30px; 
+    top: 500px; 
+    z-index:5;
+}
+
 
 
