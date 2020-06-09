@@ -1,158 +1,148 @@
 <head>
-    <!-- The line below includes stupid.css -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="css/customer.css" rel="stylesheet" type="text/css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/customer.js"></script>
-    <title>Dentist San Mateo, CA | Dr. Allen Lee | Dentist San Mateo CA</title>
-        <style>
+   <!-- The line below includes stupid.css -->
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+   <link href="css/customer.css" rel="stylesheet" type="text/css"/>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/customer.js"></script>
+   <title>Dentist San Mateo, CA | Dr. Allen Lee | Dentist San Mateo CA</title>
+   <style>
       /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+      * element that contains the map. */
       #map {
-        height: 100%;
+      height: 100%;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
+      height: 100%;
+      margin: 0;
+      padding: 0;
       }
-    </style>
+   </style>
 </head>
-
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
-    <img src="/images/logo.png" style="width:170px; height:80px float: left; ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
-            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-        <ul class="navbar-nav" id="font_menu_24">
+   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
+      <img src="/images/logo.png" style="width:170px; height:80px float: left; ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+         aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
+         class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+         <ul class="navbar-nav" id="font_menu_24">
             <li class="nav-item">
-                <a class="nav-link" href="/">Home </a>
+               <a class="nav-link" href="/">Home </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about">About</a>
+               <a class="nav-link" href="about">About</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Service
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
-                    <a class="dropdown-item" href="compre">Comprehensive Care</a>
-                    <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
-                    <a class="dropdown-item" href="emergency">Emergency Care</a>
-                    <a class="dropdown-item" href="surgery">Oral Surgery</a>
-                    <a class="dropdown-item" href="implants">Implants</a>
-                    <a class="dropdown-item" href="canals">Root Canals</a>
-                    <a class="dropdown-item" href="whitening">Teeth Whitening</a>
-                    <a class="dropdown-item" href="filings">White Filings</a>
-                </div>
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+               Service
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
+                  <a class="dropdown-item" href="compre">Comprehensive Care</a>
+                  <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
+                  <a class="dropdown-item" href="emergency">Emergency Care</a>
+                  <a class="dropdown-item" href="surgery">Oral Surgery</a>
+                  <a class="dropdown-item" href="implants">Implants</a>
+                  <a class="dropdown-item" href="canals">Root Canals</a>
+                  <a class="dropdown-item" href="whitening">Teeth Whitening</a>
+                  <a class="dropdown-item" href="filings">White Filings</a>
+               </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="review">Review</a>
+               <a class="nav-link" href="review">Review</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
             </li>
-        </ul>
-        <a href="tel:650-342-8874" ><img src="/images/icons8-phone-25.png"></a>
-    </div>
-</nav>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="item1 active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="item2 "></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="item3 "></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3" class="item3 "></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4" class="item3 "></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
+         </ul>
+         <a href="tel:650-342-8874" ><img src="/images/icons8-phone-25.png"></a>
+      </div>
+   </nav>
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="item1 active"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="1" class="item2 "></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="2" class="item3 "></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="3" class="item3 "></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="4" class="item3 "></li>
+      </ol>
+      <div class="carousel-inner">
+         <div class="carousel-item active">
             <img src="images/item01.jpg" alt="Check teeth" width="100%" height="auto">
-        </div>
-        <div class="carousel-item">
+         </div>
+         <div class="carousel-item">
             <img src="images/item02.jpg" alt="Family" width="100%" height="auto">
-        </div>
-        <div class="carousel-item">
+         </div>
+         <div class="carousel-item">
             <img src="images/item03.jpg" alt="Dad and daughter" width="100%" height="auto">
-        </div>
-        <div class="carousel-item">
+         </div>
+         <div class="carousel-item">
             <img src="images/item04.jpg" alt="Brush teeth" width="100%" height="auto">
-        </div>
-        <div class="carousel-item">
+         </div>
+         <div class="carousel-item">
             <img src="images/item05.jpg" alt="Couple" width="100%" height="auto">
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-<section class="jumbotron text-center">
- <div class="container">
-  <div class="row">
-    <div class="col-sm">
-        <h1 class="jumbotron-heading service_text_align">Contact</h1>
-        <br/>
-        <h3 class="lead text-muted service_text_align ">PHONE:</h3>
-        <p class="lead text-muted service_text_align team_member_infor">650-342-8874</p>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align ">EMAIL:</h3>
-        <p class="lead text-muted service_text_align team_member_infor">baystardental@gmail.com</p>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align ">ADDRESS:</h3>
-        <p class="lead text-muted service_text_align team_member_infor">406 N San Mateo Dr. Suite B, San Mateo, CA94401</p>
-        <br/>
-
-        <h3 class="lead text-muted service_text_align ">WORKING HOURS:</h3>
-        <p class="lead text-muted service_text_align team_member_infor">MONDAY: 9:00 AM - 6:00 PM</p>
-        <p class="lead text-muted service_text_align team_member_infor">TUESDAY: CLOSED</p>
-        <p class="lead text-muted service_text_align team_member_infor">WEDNESDAY: 9:00 AM - 6:00 PM</p>
-        <p class="lead text-muted service_text_align team_member_infor">THURSDAY: CLOSED</p>
-        <p class="lead text-muted service_text_align team_member_infor">FRIDAY: 9:00 AM - 6:00 PM</p>
-        <p class="lead text-muted service_text_align team_member_infor">SATURDAY: CLOSED.</p>
-        <p class="lead text-muted service_text_align team_member_infor">SUNDAY: 9:00 AM - 6:00 PM</p>
-        <br/>
-    </div>
-    <div class="col-sm" >
-      <div id="map"></div>
-    </div>
-  </div>
-</div>
-</section>
-
-<script>
-
+         </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+   </div>
+   <section class="jumbotron text-center">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm">
+               <h1 class="jumbotron-heading service_text_align">Contact</h1>
+               <br/>
+               <h3 class="lead text-muted service_text_align ">PHONE:</h3>
+               <p class="lead text-muted service_text_align team_member_infor">650-342-8874</p>
+               <br/>
+               <h3 class="lead text-muted service_text_align ">EMAIL:</h3>
+               <p class="lead text-muted service_text_align team_member_infor">baystardental@gmail.com</p>
+               <br/>
+               <h3 class="lead text-muted service_text_align ">ADDRESS:</h3>
+               <p class="lead text-muted service_text_align team_member_infor">406 N San Mateo Dr. Suite B, San Mateo, CA94401</p>
+               <br/>
+               <h3 class="lead text-muted service_text_align ">WORKING HOURS:</h3>
+               <p class="lead text-muted service_text_align team_member_infor">MONDAY: 9:00 AM - 6:00 PM</p>
+               <p class="lead text-muted service_text_align team_member_infor">TUESDAY: CLOSED</p>
+               <p class="lead text-muted service_text_align team_member_infor">WEDNESDAY: 9:00 AM - 6:00 PM</p>
+               <p class="lead text-muted service_text_align team_member_infor">THURSDAY: CLOSED</p>
+               <p class="lead text-muted service_text_align team_member_infor">FRIDAY: 9:00 AM - 6:00 PM</p>
+               <p class="lead text-muted service_text_align team_member_infor">SATURDAY: CLOSED.</p>
+               <p class="lead text-muted service_text_align team_member_infor">SUNDAY: 9:00 AM - 6:00 PM</p>
+               <br/>
+            </div>
+            <div class="col-sm" >
+               <div id="map"></div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script>
       function initMap() {
         var myLatLng = {lat: 37.572340, lng: -122.332610};
-
+      
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 16,
           center: myLatLng
         });
-
+      
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
           title: 'Bay Star Dental'+'\n406 N San Mateo Dr. Suite B, San Mateo, CA94401'
         });
       }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfB2MdmCUUxEvq0DsPLtumwx8qm9ElUyc&callback=initMap">
-    </script>
+   </script>
+   <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfB2MdmCUUxEvq0DsPLtumwx8qm9ElUyc&callback=initMap"></script>
 </body>

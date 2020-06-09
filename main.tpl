@@ -57,7 +57,7 @@
 <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom:0px !important;">
   <div class = "message_align"><h1>We’re Open!</h1></div>
   <div class = "message_align"><p>Bay Star Dental is now open for clinical appointments (cleanings, fillings, crowns, implants, extractions).</p>
-<p><a href="#">Click here</a> to read an update from Dr. Zhang regarding COVID-19 safety measures and what to expect at your next appointment.</p></div>
+<p><a href="warning" target="_blank">Click here</a> to read an update from Dr. Zhang regarding COVID-19 safety measures and what to expect at your next appointment.</p></div>
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>

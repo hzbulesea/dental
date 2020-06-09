@@ -56,7 +56,9 @@ def whitening():
 def filings():
     return template("filings")
 
-
+@get('/warning')
+def warning():
+    return template("warning")
 ################################################################################
 # Let's add some code to serve jpg images from our static images directory.
 @route('/images/<filename:re:.*\.*>')
