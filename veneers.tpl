@@ -12,7 +12,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark turquoise">
-    <img src="/images/logo.png" style="width:15%; float: left; ">
+    <img src="/images/logo.png" style="width:170px; height:80px float: left; ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
             aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
             class="navbar-toggler-icon"></span>
