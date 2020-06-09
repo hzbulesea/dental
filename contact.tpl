@@ -61,7 +61,7 @@
                 <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
             </li>
         </ul>
-        <img src="/images/icons8-phone-25.png">
+        <a href="tel:650-342-8874" ><img src="/images/icons8-phone-25.png"></a>
     </div>
 </nav>
 

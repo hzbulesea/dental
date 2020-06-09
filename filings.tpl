@@ -48,7 +48,7 @@
                     <a class="nav-link" href="contact">Contact</a>
                 </li>
             </ul>
-            <img src="/images/icons8-phone-25.png">
+            <a href="tel:650-342-8874" ><img src="/images/icons8-phone-25.png"></a>
         </div>
     </nav>
 
