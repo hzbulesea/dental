@@ -40,6 +40,9 @@
                </div>
             </li>
             <li class="nav-item">
+               <a class="nav-link tab_width" href="member">Membership</a>
+            </li>
+            <li class="nav-item">
                <a class="nav-link tab_width" href="review">Review</a>
             </li>
             <li class="nav-item">

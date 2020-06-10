@@ -59,6 +59,11 @@ def filings():
 @get('/warning')
 def warning():
     return template("warning")
+    
+@get('/member')
+def member():
+    return template("member")
+
 ################################################################################
 # Let's add some code to serve jpg images from our static images directory.
 @route('/images/<filename:re:.*\.*>')

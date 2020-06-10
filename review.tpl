@@ -39,6 +39,9 @@
                   <a class="dropdown-item" href="filings">White Filings</a>
                </div>
             </li>
+            <li class="nav-item">
+               <a class="nav-link tab_width" href="member">Membership</a>
+            </li>
             <li class="nav-item active">
                <a class="nav-link tab_width" href="review">Review</a>
             </li>
