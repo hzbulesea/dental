@@ -1,171 +1,162 @@
 <head>
-    <!-- The line below includes stupid.css -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="css/customer.css" rel="stylesheet" type="text/css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/customer.js"></script>
-    <title>Dentist San Mateo, CA | Dr. Allen Lee | Dentist San Mateo CA</title>
+   <!-- The line below includes stupid.css -->
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+   <link href="css/customer.css" rel="stylesheet" type="text/css"/>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/customer.js"></script>
+   <title>Dentist San Mateo, CA | Dr. Allen Lee | Dentist San Mateo CA</title>
 </head>
-
 <body>
-<nav id = "head_height" class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
-    <img src="/images/logo.png" style="width:170px; height:80px float: left; ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
-            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-        <ul class="navbar-nav" id="font_menu_24">
+   <nav id = "head_height" class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
+      <img src="/images/logo.png" style="width:170px; height:80px float: left; ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+         aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
+         class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+         <ul class="navbar-nav" id="font_menu_24">
             <li class="nav-item active">
-                <a class="nav-link tab_width" href="#">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link tab_width" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link tab_width" href="about">About</a>
+               <a class="nav-link tab_width" href="about">About</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle tab_width" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Services
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
-                    <a class="dropdown-item" href="compre">Comprehensive Care</a>
-                    <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
-                    <a class="dropdown-item" href="emergency">Emergency Care</a>
-                    <a class="dropdown-item" href="surgery">Oral Surgery</a>
-                    <a class="dropdown-item" href="implants">Implants</a>
-                    <a class="dropdown-item" href="canals">Root Canals</a>
-                    <a class="dropdown-item" href="whitening">Teeth Whitening</a>
-                    <a class="dropdown-item" href="filings">White Filings</a>
-                </div>
+               <a class="nav-link dropdown-toggle tab_width" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+               Services
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
+                  <a class="dropdown-item" href="compre">Comprehensive Care</a>
+                  <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
+                  <a class="dropdown-item" href="emergency">Emergency Care</a>
+                  <a class="dropdown-item" href="surgery">Oral Surgery</a>
+                  <a class="dropdown-item" href="implants">Implants</a>
+                  <a class="dropdown-item" href="canals">Root Canals</a>
+                  <a class="dropdown-item" href="whitening">Teeth Whitening</a>
+                  <a class="dropdown-item" href="filings">White Filings</a>
+               </div>
             </li>
             <li class="nav-item">
                <a class="nav-link tab_width" href="member">Membership</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link tab_width" href="review">Reviews</a>
+               <a class="nav-link tab_width" href="review">Reviews</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link tab_width" href="contact">Contact</a>
+               <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
+               <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
             </li>
          </ul>
-    </div>
-</nav>
-
-<div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom:0px !important;">
-  <div class = "message_align"><h1>We’re Open!</h1></div>
-  <div class = "message_align"><p>Bay Star Dental is now open for clinical appointments (cleanings, fillings, crowns, implants, extractions).</p>
-<p><a href="warning" target="_blank">Click here</a> to read an update from Dr. Zhang regarding COVID-19 safety measures and what to expect at your next appointment.</p></div>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="item1 active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="item2 "></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="item3 "></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3" class="item3 "></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4" class="item3 "></li>
-    </ol>
-    <div id = "img_height" class="carousel-inner" style=“position:relative;”>
-        <div class="carousel-item active">
+      </div>
+   </nav>
+   <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom:0px !important;">
+      <div class = "message_align">
+         <h1>We’re Open!</h1>
+      </div>
+      <div class = "message_align">
+         <p>Bay Star Dental is now open for clinical appointments (cleanings, fillings, crowns, implants, extractions).</p>
+         <p><a href="warning" target="_blank">Click here</a> to read an update from Dr. Zhang regarding COVID-19 safety measures and what to expect at your next appointment.</p>
+      </div>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+   </div>
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+      <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="item1 active"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="1" class="item2 "></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="2" class="item3 "></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="3" class="item3 "></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="4" class="item3 "></li>
+      </ol>
+      <div id = "img_height" class="carousel-inner" style=“position:relative;”>
+         <div class="carousel-item active">
             <img src="images/item01.jpg" alt="Check teeth" width="100%" height="auto">
-        </div>
-        <div class="carousel-item">
+         </div>
+         <div class="carousel-item">
             <img src="images/item02.jpg" alt="Family" width="100%" height="auto">
-        </div>
-        <div class="carousel-item">
+         </div>
+         <div class="carousel-item">
             <img src="images/item03.jpg" alt="Dad and daughter" width="100%" height="auto">
-        </div>
-        <div class="carousel-item">
+         </div>
+         <div class="carousel-item">
             <img src="images/item04.jpg" alt="Brush teeth" width="100%" height="auto">
-        </div>
-        <div class="carousel-item">
+         </div>
+         <div class="carousel-item">
             <img src="images/item05.jpg" alt="Couple" width="100%" height="auto">
-        </div>
-    </div>
-
-    <!-- appointment button -->
-    <button data-toggle="modal" data-target="#exampleModalCenter" id = "appoint" style="width:300px;height:60px;font-size: large;font-weight: bold;border: 1px solid transparent; border-radius: 100px;color:white;background-color: #00ccff; float: right; position: fixed; right: 30px; top: 500px; z-index:5;" type="button">MAKE AN APPOINTMENT</button>
-
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Make an Appointment</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+         </div>
       </div>
-      <div class="modal-body">
-        <form action="mailto:hzbulesea@gmail.com">
-
-            <div class="form-row">
-                <div class="col">
-                <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col">
-                <input type="text" class="form-control" placeholder="Last name">
-                </div>
+      <!-- appointment button -->
+      <button data-toggle="modal" data-target="#exampleModalCenter" id = "appoint" style="width:300px;height:60px;font-size: large;font-weight: bold;border: 1px solid transparent; border-radius: 100px;color:white;background-color: #00ccff; float: right; position: fixed; right: 30px; top: 500px; z-index:5;" type="button">MAKE AN APPOINTMENT</button>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+   </div>
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Make an Appointment</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+               </button>
             </div>
-
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label"></label>
-            <input type="text" class="form-control" id="email_address" placeholder="Email">
-          </div>
-
-          <div class="form-group">
-            <input type="text" class="form-control" id="phone_number" placeholder="Phone">
-          </div>
-
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
+            <div class="modal-body">
+               <form action="mailto:hzbulesea@gmail.com">
+                  <div class="form-row">
+                     <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                     </div>
+                     <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="recipient-name" class="col-form-label"></label>
+                     <input type="text" class="form-control" id="email_address" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                     <input type="text" class="form-control" id="phone_number" placeholder="Phone">
+                  </div>
+                  <div class="form-group">
+                     <label for="message-text" class="col-form-label">Message:</label>
+                     <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+               </form>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               <button type="submit" class="btn btn-primary" >Send</button>
+            </div>
+         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary" >Send</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<main role="main">
-
-    <section class="jumbotron text-center">
-        <div class="container">
+   </div>
+   <main role="main">
+      <section class="jumbotron text-center">
+         <div class="container">
             <h1 class="jumbotron-heading home_title">Welcome to Bay Star Dental Family Dentistry</h1>
             <br/>
             <p class="lead text-muted home_title">We treat adults, kids, seniors, and people afraid of the dentists. We
-                treat the whole family! Our entire team at Bay Star Dental is dedicated to helping people and building
-                lasting relationships, going beyond “fixing teeth.” We are committed to provide you with the highest
-                quality of dental care in a safe and comfortable setting. Whether you’re ready for a smile makeover or
-                are just in need of routine preventative care, we are your family’s choice dentist in San Mateo,
-                CA. </p>
-        </div>
-    </section>
-
-</main>
-
+               treat the whole family! Our entire team at Bay Star Dental is dedicated to helping people and building
+               lasting relationships, going beyond “fixing teeth.” We are committed to provide you with the highest
+               quality of dental care in a safe and comfortable setting. Whether you’re ready for a smile makeover or
+               are just in need of routine preventative care, we are your family’s choice dentist in San Mateo,
+               CA. 
+            </p>
+         </div>
+      </section>
+      <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
+      <script>kleerWidget.init("ZK6C", "light")</script>
+   </main>
 </body>

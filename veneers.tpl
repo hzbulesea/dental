@@ -88,6 +88,7 @@
       <span class="sr-only">Next</span>
       </a>
    </div>
+   <main role="main">
    <section class="jumbotron text-center">
       <div class="container">
          <h1 class="jumbotron-heading service_text_align">Dental Veneers, Crowns & Bridges</h1>
@@ -123,4 +124,5 @@
          <br/>
       </div>
    </section>
+   </main>
 </body>

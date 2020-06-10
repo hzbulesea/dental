@@ -88,6 +88,7 @@
       <span class="sr-only">Next</span>
       </a>
    </div>
+   <main role="main">
    <section class="jumbotron text-center">
       <div class="container">
          <h1 class="jumbotron-heading service_text_align">Root Canal</h1>
@@ -107,4 +108,5 @@
          </h5>
       </div>
    </section>
+   </main>
 </body>

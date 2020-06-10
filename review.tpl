@@ -49,7 +49,7 @@
                <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
+               <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
             </li>
          </ul>
       </div>
@@ -88,33 +88,33 @@
       <span class="sr-only">Next</span>
       </a>
    </div>
-   <section class="jumbotron">
-      <div class="container">
-         <h1 class="jumbotron-heading service_text_align text-center">What Patients Say About Us</h1>
-         <br/>
-<div class="card card_color" >
-  <div class="card-body">
-    <p class="card-text">Dr. Zhang is great! He is very detailed and willingly to take time to explain everything in detail. He is truly awesome with kids as well, very outstanding in keeping my girls’ at ease during treatments.  So our whole family goes to Dr. Zhang!!</p>
-    <p style="float:right">Sarah Chang</p>
-  </div>
-</div>     
-<br/>
-
-<div class="card card_color" >
-  <div class="card-body">
-    <p class="card-text">Dr. Zhang and his staff are very friendly and professional. My entire extraction and bone graft procedure was very smooth and painless. Highly recommend him.</p>
-    <p style="float:right">Jialing Zhao</p>
-  </div>
-</div>       
-<br/>
-
-<div class="card card_color" >
-  <div class="card-body">
-    <p class="card-text">The whole wisdom teeth removal experience was amazing!! I would give 10 stars for Dr.Zhang if I could!</p>
-    <p style="float:right">Zi Li</p>
-  </div>
-</div>      
-<br/>
-      </div>
-   </section>
+   <main role="main">
+      <section class="jumbotron">
+         <div class="container">
+            <h1 class="jumbotron-heading service_text_align text-center">What Patients Say About Us</h1>
+            <br/>
+            <div class="card card_color" >
+               <div class="card-body">
+                  <p class="card-text">Dr. Zhang is great! He is very detailed and willingly to take time to explain everything in detail. He is truly awesome with kids as well, very outstanding in keeping my girls’ at ease during treatments.  So our whole family goes to Dr. Zhang!!</p>
+                  <p style="float:right">Sarah Chang</p>
+               </div>
+            </div>
+            <br/>
+            <div class="card card_color" >
+               <div class="card-body">
+                  <p class="card-text">Dr. Zhang and his staff are very friendly and professional. My entire extraction and bone graft procedure was very smooth and painless. Highly recommend him.</p>
+                  <p style="float:right">Jialing Zhao</p>
+               </div>
+            </div>
+            <br/>
+            <div class="card card_color" >
+               <div class="card-body">
+                  <p class="card-text">The whole wisdom teeth removal experience was amazing!! I would give 10 stars for Dr.Zhang if I could!</p>
+                  <p style="float:right">Zi Li</p>
+               </div>
+            </div>
+            <br/>
+         </div>
+      </section>
+   </main>
 </body>

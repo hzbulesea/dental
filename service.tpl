@@ -88,6 +88,7 @@
       <span class="sr-only">Next</span>
       </a>
    </div>
+   <main role="main">
    <section class="jumbotron text-center">
       <nav aria-label="breadcrumb">
          <ol class="breadcrumb">
@@ -116,4 +117,5 @@
          <br/>
       </div>
    </section>
+   </main>
 </body>

@@ -101,6 +101,7 @@
       <span class="sr-only">Next</span>
       </a>
    </div>
+      <main role="main">
    <section class="jumbotron text-center">
       <div class="container">
          <div class="row">
@@ -150,4 +151,5 @@
    </script>
    <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfB2MdmCUUxEvq0DsPLtumwx8qm9ElUyc&callback=initMap"></script>
+   </main>
 </body>
