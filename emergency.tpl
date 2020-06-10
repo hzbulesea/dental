@@ -114,5 +114,7 @@
          </h5>
       </div>
    </section>
+            <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
+         <script>kleerWidget.init("ZK6C", "light")</script>
    </main>
 </body>

@@ -49,7 +49,7 @@
                <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
+               <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
             </li>
          </ul>
       </div>
@@ -88,18 +88,18 @@
       <span class="sr-only">Next</span>
       </a>
    </div>
-      <main role="main">
-   <section class="jumbotron text-center">
-      <div class="container">
-         <h1 class="jumbotron-heading service_text_align">Membership</h1>
-         <br/>
-         <h3 class="lead text-muted service_text_side_title">membership explain</h3>
-         <h5 class="lead text-muted service_text_align">
-         </h5>
-         <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
-         <script>kleerWidget.init("ZK6C", "light")</script>
-         <br/>
-      </div>
-   </section>
+   <main role="main">
+      <section class="jumbotron text-center">
+         <div class="container">
+            <h1 class="jumbotron-heading service_text_align">Membership</h1>
+            <br/>
+            <h3 class="lead text-muted service_text_side_title">membership explain</h3>
+            <h5 class="lead text-muted service_text_align">
+            </h5>
+            <br/>
+         </div>
+      </section>
+      <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
+      <script>kleerWidget.init("ZK6C", "light")</script>
    </main>
 </body>
