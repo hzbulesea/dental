@@ -31,13 +31,13 @@
       <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
          <ul class="navbar-nav" id="font_menu_24">
             <li class="nav-item">
-               <a class="nav-link" href="/">Home </a>
+               <a class="nav-link tab_width" href="/">Home </a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="about">About</a>
+               <a class="nav-link tab_width" href="about">About</a>
             </li>
             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+               <a class="nav-link tab_width dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                Service
                </a>
@@ -53,10 +53,10 @@
                </div>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="review">Review</a>
+               <a class="nav-link tab_width" href="review">Review</a>
             </li>
             <li class="nav-item active">
-               <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+               <a class="nav-link tab_width" href="#">Contact <span class="sr-only">(current)</span></a>
             </li>
          </ul>
          <a href="tel:650-342-8874" ><img src="/images/icons8-phone-25.png"></a>

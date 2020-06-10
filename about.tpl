@@ -18,13 +18,13 @@
       <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
          <ul class="navbar-nav" id="font_menu_24">
             <li class="nav-item">
-               <a class="nav-link" href="/">Home </a>
+               <a class="nav-link tab_width" href="/">Home </a>
             </li>
             <li class="nav-item active">
-               <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+               <a class="nav-link tab_width" href="#">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+               <a class="nav-link tab_width dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                Service
                </a>
@@ -40,10 +40,10 @@
                </div>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="review">Review</a>
+               <a class="nav-link tab_width" href="review">Review</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="contact">Contact</a>
+               <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
          </ul>
          <a href="tel:650-342-8874" ><img src="/images/icons8-phone-25.png"></a>
@@ -94,13 +94,7 @@
             <div class="row">
                <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                     <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
-                        role="img" aria-label="Placeholder: Thumbnail">
-                        <title>Dr. Xuyu Zhang</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect>
-                        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Dr. Xuyu Zhang</text>
-                     </svg>
+                     <img src="images/employee01.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile01" class="card-body">
                         <h6 class="about_title_weight">Dr. Xuyu Zhang</h6>
                         <p class="about_side_title_color">Principal Dentist </p>
@@ -120,13 +114,7 @@
                </div>
                <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                     <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
-                        role="img" aria-label="Placeholder: Thumbnail">
-                        <title>Dr. Allen Lee</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect>
-                        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Dr. Allen Lee</text>
-                     </svg>
+                     <img src="images/employee02.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile02" class="card-body">
                         <h6 class="about_title_weight">Dr. Allen Lee</h6>
                         <p class="about_side_title_color">Consultant</p>
@@ -145,15 +133,11 @@
                      </div>
                   </div>
                </div>
+            </div>
+            <div class="row">
                <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                     <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
-                        role="img" aria-label="Placeholder: Thumbnail">
-                        <title>Doris</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect>
-                        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Doris</text>
-                     </svg>
+                     <img src="images/employee03.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile03" class="card-body">
                         <h6 class="about_title_weight">Doris</h6>
                         <p class="about_side_title_color">Manager, RDA</p>
@@ -172,14 +156,8 @@
                </div>
                <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                     <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
-                        role="img" aria-label="Placeholder: Thumbnail">
-                        <title>Joanne</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect>
-                        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Joanne</text>
-                     </svg>
-                     <div class="card-body">
+                     <img src="images/employee04.jpg" alt="Dr. Xuyu Zhang" width="100%">
+                     <div id="profile04" class="card-body">
                         <h6 class="about_title_weight">Joanne</h6>
                         <p class="about_side_title_color">Dental Assistant, RDA</p>
                         <p class="about_para_size">
@@ -189,6 +167,21 @@
                         </p>
                         <p class="about_para_size">
                            At her free time, Joanne likes to read and practice yoga.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                     <img src="images/employee05.jpg" alt="Dr. Xuyu Zhang" width="100%">
+                     <div id="profile05" class="card-body">
+                        <h6 class="about_title_weight">Lynn</h6>
+                        <p class="about_side_title_color">Front Desk, RDA</p>
+                        <p class="about_para_size">
+                           Lynn knows there is more to dentistry than simply fixing smiles. She is dedicated and goes above and beyond to foster a friendship with her patients to make sure they get the best experience possible. Lynn is also bilingual and speaks both English and Mandarin.
+                        </p>
+                        <p class="about_para_size">
+                           Lynn enjoys watching sports and learning about manicure at her free time.
                         </p>
                      </div>
                   </div>

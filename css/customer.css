@@ -53,16 +53,20 @@
     height:60px;
     font-size: large;
     font-weight: bold;
-    border: 1px solid transparent; 
+    border: 1px solid transparent;
     border-radius: 100px;
     color:white;
-    background-color: #00ccff; 
-    float: right; 
-    position: fixed; 
-    right: 30px; 
-    top: 500px; 
+    background-color: #00ccff;
+    float: right;
+    position: fixed;
+    right: 30px;
+    top: 500px;
     z-index:5;
 }
+.tab_width{
+    width: 120px;
+}
 
-
-
+.card_color{
+    background-color: #e9ecef !important;
+}
