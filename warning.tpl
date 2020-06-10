@@ -48,8 +48,10 @@
             <li class="nav-item">
                <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
+            <li class="nav-item">
+              <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
+            </li>
          </ul>
-         <a href="tel:650-342-8874" ><img src="/images/icons8-phone-25.png"></a>
       </div>
    </nav>
    <section class="jumbotron text-center">

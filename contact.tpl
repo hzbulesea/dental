@@ -61,8 +61,10 @@
             <li class="nav-item active">
                <a class="nav-link tab_width" href="#">Contact <span class="sr-only">(current)</span></a>
             </li>
+            <li class="nav-item">
+              <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
+            </li>
          </ul>
-         <a href="tel:650-342-8874" ><img src="/images/icons8-phone-25.png"></a>
       </div>
    </nav>
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
