@@ -29,7 +29,7 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle tab_width" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
-                    Service
+                    Services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
                     <a class="dropdown-item" href="compre">Comprehensive Care</a>
@@ -46,7 +46,7 @@
                <a class="nav-link tab_width" href="member">Membership</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link tab_width" href="review">Review</a>
+                <a class="nav-link tab_width" href="review">Reviews</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link tab_width" href="contact">Contact</a>
