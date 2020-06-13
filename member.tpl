@@ -91,15 +91,29 @@
    <main role="main">
       <section class="jumbotron text-center">
          <div class="container">
-            <h1 class="jumbotron-heading service_text_align">Membership</h1>
+            <h1 class="jumbotron-heading service_text_align">No Dental Benefits?</h1>
+            <h1 class="jumbotron-heading service_text_side_title">We Have You Covered!</h1>
             <br/>
-            <h3 class="lead text-muted service_text_side_title">membership explain</h3>
-            <h5 class="lead text-muted service_text_align">
+            <h3 class="lead text-muted service_text_side_title">Join our Membership Plan and <b style="color: #00ccff">SAVE TODAY!</b></h3><br/>
+            <h5 class="lead text-muted service_text_align">Our membership Plan provides the professional oral care you want at an affordable price! How can we do this? By offering the plan directly to you, we remove the cost and hassle of a middleman. We keep it simple, pass the savings to you, and focus on your oral care!
+            </h5><br/>
+            <h5 class="lead text-muted service_text_align"><img src="/images/meb_01.png" width="50px" height="50px" style="margin:5px 15px">Benefits start immediately. Join today, save today!
             </h5>
+            <h5 class="lead text-muted service_text_align"><img src="/images/meb_02.png" width="50px" height="50px" style="margin:5px 15px">Includes cleanings, exams and routine x-rays at no extra cost.
+            </h5>
+            <h5 class="lead text-muted service_text_align"><img src="/images/meb_03.png" width="50px" height="50px" style="margin:5px 15px">Provides exclusive discounts off other procedures, like fillings.
+            </h5>
+            <h5 class="lead text-muted service_text_align"><img src="/images/meb_04.png" width="50px" height="50px" style="margin:5px 15px">Provides 100% price transparency. You will never be surprised
+by treatment cost.
+            </h5>
+            <h5 class="lead text-muted service_text_align"><img src="/images/meb_05.png" width="50px" height="50px" style="margin:5px 15px">There are no deductibles, waiting periods, annual maximums,
+preapprovals, or denials of claims.
+            </h5>
+            <h5 class="lead text-muted service_text_align"><img src="/images/meb_06.png" width="50px" height="50px" style="margin:5px 15px">Membership runs for 12 months from the date you join.
+            </h5>
+            <a href="https://member.kleer.com/enrollment/accounts/create/?slug=ZK6C" style="color: white; background-color: #00ccff; text-decoration: none; padding: 14px 32px; font-size: 18px; border-radius: 3px; text-transform: uppercase; font-family: sans-serif; box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;">join now</a>
             <br/>
          </div>
       </section>
-      <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
-      <script>kleerWidget.init("ZK6C", "light")</script>
    </main>
 </body>

@@ -23,14 +23,14 @@
             <li class="nav-item">
                <a class="nav-link tab_width" href="about">About</a>
             </li>
-            <li class="nav-item dropdown active">
+            <li class="nav-item dropdown">
                <a class="nav-link tab_width dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                Services
                </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
                   <a class="dropdown-item" href="compre">Comprehensive Care</a>
-                  <a class="dropdown-item active" href="#">Dental Veneers, Crowns & Bridges</a>
+                  <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
                   <a class="dropdown-item" href="emergency">Emergency Care</a>
                   <a class="dropdown-item" href="surgery">Oral Surgery</a>
                   <a class="dropdown-item" href="implants">Implants</a>
