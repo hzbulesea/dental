@@ -33,6 +33,9 @@ $(document).ready(function () {
     $("#profile05").height(profilehight2);
 
     $("#right_container").height($("#left_container").height);
+
+    var contactHeight = $("#con_left").height();
+    $("#con_right").height(contactHeight);
 });
 
 $(window).resize(function () {
@@ -41,4 +44,7 @@ $(window).resize(function () {
     var profilehight2 = $("#profile03").height();
     $("#profile04").height(profilehight2);
     $("#profile05").height(profilehight2);
+
+    var contactHeight = $("#con_left").height();
+    $("#con_right").height(contactHeight);
 });

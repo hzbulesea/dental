@@ -10,7 +10,7 @@
 </head>
 <body>
    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
-      <img src="/images/logo.png" style="width:170px; height:80px float: left; ">
+      <a href="/"><img src="/images/logo.png" style="width:170px; height:80px float: left; "></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
          aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
          class="navbar-toggler-icon"></span>
@@ -97,7 +97,7 @@
       <div class="album py-5 bg-light">
          <div class="container">
             <div class="row">
-               <div class="col-md-4">
+               <div class="col-md">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee01.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile01" class="card-body">
@@ -117,7 +117,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee02.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile02" class="card-body">
@@ -140,7 +140,7 @@
                </div>
             </div>
             <div class="row">
-               <div class="col-md-4">
+               <div class="col-md">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee03.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile03" class="card-body">
@@ -159,7 +159,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee04.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile04" class="card-body">
@@ -176,7 +176,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee05.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile05" class="card-body">

@@ -10,7 +10,7 @@
 </head>
 <body>
    <nav id = "head_height" class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
-      <img src="/images/logo.png" style="width:170px; height:80px float: left; ">
+      <a href="/"><img src="/images/logo.png" style="width:170px; height:80px float: left; "></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
          aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
          class="navbar-toggler-icon"></span>

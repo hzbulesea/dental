@@ -23,7 +23,7 @@
 </head>
 <body>
    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
-      <img src="/images/logo.png" style="width:170px; height:80px float: left; ">
+      <a href="/"><img src="/images/logo.png" style="width:170px; height:80px float: left; "></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
          aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
          class="navbar-toggler-icon"></span>
@@ -105,7 +105,7 @@
    <section class="jumbotron text-center">
       <div class="container">
          <div class="row">
-            <div class="col-sm">
+            <div id ="con_left" class="col-lg">
                <h1 class="jumbotron-heading service_text_align">Contact</h1>
                <br/>
                <h3 class="lead text-muted service_text_align ">PHONE:</h3>
@@ -125,9 +125,8 @@
                <p class="lead text-muted service_text_align team_member_infor">FRIDAY: 9:00 AM - 6:00 PM</p>
                <p class="lead text-muted service_text_align team_member_infor">SATURDAY: CLOSED.</p>
                <p class="lead text-muted service_text_align team_member_infor">SUNDAY: 9:00 AM - 6:00 PM</p>
-               <br/>
             </div>
-            <div class="col-sm" >
+            <div id ="con_right" class="col-lg" style="height:674px">
                <div id="map"></div>
             </div>
          </div>
