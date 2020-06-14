@@ -89,7 +89,7 @@
       </a>
    </div>
    <main role="main">
-      <section class="jumbotron">
+      <section id = "section_margin_bt" class="jumbotron text-center">
          <div class="container">
             <h1 class="jumbotron-heading service_text_align text-center">What Patients Say About Us</h1>
             <br/>

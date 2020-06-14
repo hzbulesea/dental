@@ -70,3 +70,13 @@
 .card_color{
     background-color: #e9ecef !important;
 }
+#section_margin_bt{
+    margin-bottom: 0px;
+}
+.foot_link_color{color: rgba(255, 255, 255, 0.7);
+}
+.foot_link_color:hover{
+    color:white;
+    cursor: pointer;
+    text-decoration: underline;
+}

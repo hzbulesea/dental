@@ -102,7 +102,7 @@
       </a>
    </div>
       <main role="main">
-   <section class="jumbotron text-center">
+   <section id = "section_margin_bt" class="jumbotron text-center">
       <div class="container">
          <div class="row">
             <div id ="con_left" class="col-lg">
