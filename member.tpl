@@ -110,10 +110,93 @@ by treatment cost.
 preapprovals, or denials of claims.
             </h5>
             <h5 class="lead text-muted service_text_align"><img src="/images/meb_06.png" width="50px" height="50px" style="margin:5px 15px">Membership runs for 12 months from the date you join.
-            </h5>
+            </h5><br/>
             <a href="https://member.kleer.com/enrollment/accounts/create/?slug=ZK6C" style="color: white; background-color: #00ccff; text-decoration: none; padding: 14px 32px; font-size: 18px; border-radius: 3px; text-transform: uppercase; font-family: sans-serif; box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;">join now</a>
             <br/>
          </div>
       </section>
    </main>
+   <footer class="page-footer font-small blue pt-4" style="background-color: #4cdbff; color:rgba(255, 255, 255, 0.7);">
+   <!-- Footer Links -->
+   <div class="container-fluid text-md-left">
+      <!-- Grid row -->
+      <div class="row">
+         <!-- Grid column -->
+         <div class="col-md-5 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5 class="text-uppercase"><b>CONTACT</b></h5>
+            <p>406 N San Mateo Dr. Suite B, San Mateo, CA94401<br/>650-342-8874</p>
+         </div>
+         <!-- Grid column -->
+         <hr class="clearfix w-100 d-md-none pb-3">
+         <!-- Grid column -->
+         <div class="col mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">SERVICES</h5>
+            <div class="row">
+            <div class="col">
+            <ul class="list-unstyled">
+               <li>
+                  <a class = "foot_link_color" href="compre">Comprehensive Care</a>
+               </li>
+               <li>
+                  <a  class = "foot_link_color" href="veneers">Dental Veneers, Crowns & Bridges</a>
+               </li>
+               <li>
+                  <a  class = "foot_link_color" href="emergency">Emergency Care</a>
+               </li>
+               <li>
+                  <a  class = "foot_link_color" href="surgery">Oral Surgery</a>
+               </li>
+            </ul>
+            </div>
+            <div class="col">
+            <ul class="list-unstyled">
+               <li>
+                  <a  class = "foot_link_color" href="implants">Implants</a>
+               </li>
+               <li>
+                  <a  class = "foot_link_color" href="canals">Root Canals</a>
+               </li>
+               <li>
+                  <a  class = "foot_link_color" href="whitening">Teeth Whitening</a>
+               </li>
+               <li>
+                  <a  class = "foot_link_color" href="filings">White Filings</a>
+               </li>
+            </ul>
+            </div>
+            </div>
+         </div>
+         <!-- Grid column -->
+         <!-- Grid column -->
+         <div class="col-md-2 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+            <ul class="list-unstyled">
+               <li>
+                  <a class = "foot_link_color" href="about">About</a>
+               </li>
+               <li>
+                  <a class = "foot_link_color" href="member">Membership</a>
+               </li>
+               <li>
+                  <a class = "foot_link_color" href="review">Reviews</a>
+               </li>
+               <li>
+                  <a class = "foot_link_color" href="contact">Contact</a>
+               </li>
+            </ul>
+         </div>
+         <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+   </div>
+   <!-- Footer Links -->
+   <!-- Copyright -->
+   <div class="footer-copyright text-center py-3" style="background-color: #00ccff;">© 2020 Copyright:
+      <a class = "foot_link_color" href="https://baystardental.net/"> BAYSTARDENTAL.NET</a>
+   </div>
+   <!-- Copyright -->
+</footer>
 </body>
