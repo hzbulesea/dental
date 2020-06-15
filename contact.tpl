@@ -230,7 +230,7 @@
    <!-- Footer Links -->
    <!-- Copyright -->
    <div class="footer-copyright text-center py-3" style="background-color: #00ccff;">© 2020 Copyright:
-      <a class = "foot_link_color" href="https://www.baystardental.net"> BAYSTARDENTAL.NET</a>
+      <a class = "foot_link_color" href="http://www.baystardental.net"> BAYSTARDENTAL.NET</a>
    </div>
    <!-- Copyright -->
 </footer>
