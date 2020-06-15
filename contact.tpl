@@ -112,7 +112,7 @@
                <p class="lead text-muted service_text_align team_member_infor">650-342-8874</p>
                <br/>
                <h3 class="lead text-muted service_text_align ">EMAIL:</h3>
-               <p class="lead text-muted service_text_align team_member_infor">baystardental@gmail.com</p>
+               <p class="lead text-muted service_text_align team_member_infor"><a class = "email_link" href="mailto:baystardental@gmail.com?subject=The%20subject%20of%20the%20mail">baystardental@gmail.com</a></p>
                <br/>
                <h3 class="lead text-muted service_text_align ">ADDRESS:</h3>
                <p class="lead text-muted service_text_align team_member_infor">406 N San Mateo Dr. Suite B, San Mateo, CA94401</p>
@@ -230,7 +230,7 @@
    <!-- Footer Links -->
    <!-- Copyright -->
    <div class="footer-copyright text-center py-3" style="background-color: #00ccff;">© 2020 Copyright:
-      <a class = "foot_link_color" href="https://baystardental.net/"> BAYSTARDENTAL.NET</a>
+      <a class = "foot_link_color" href="https://www.baystardental.net"> BAYSTARDENTAL.NET</a>
    </div>
    <!-- Copyright -->
 </footer>

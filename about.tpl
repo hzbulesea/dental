@@ -97,7 +97,7 @@
       <div class="album py-5">
          <div class="container">
             <div class="row">
-               <div class="col-md">
+               <div class="col-lg">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee01.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile01" class="card-body">
@@ -117,7 +117,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md">
+               <div class="col-lg">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee02.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile02" class="card-body">
@@ -140,7 +140,7 @@
                </div>
             </div>
             <div class="row">
-               <div class="col-md">
+               <div class="col-lg">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee03.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile03" class="card-body">
@@ -159,7 +159,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md">
+               <div class="col-lg">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee04.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile04" class="card-body">
@@ -176,7 +176,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md">
+               <div class="col-lg">
                   <div class="card mb-4 box-shadow">
                      <img src="images/employee05.jpg" alt="Dr. Xuyu Zhang" width="100%">
                      <div id="profile05" class="card-body">
@@ -275,7 +275,7 @@
    <!-- Footer Links -->
    <!-- Copyright -->
    <div class="footer-copyright text-center py-3" style="background-color: #00ccff;">© 2020 Copyright:
-      <a class = "foot_link_color" href="https://baystardental.net/"> BAYSTARDENTAL.NET</a>
+      <a class = "foot_link_color" href="https://www.baystardental.net"> BAYSTARDENTAL.NET</a>
    </div>
    <!-- Copyright -->
 </footer>

@@ -80,3 +80,10 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.email_link{
+    color:#6c757d;
+}
+.email_link:hover{
+    color:6c757d;
+    text-decoration: underline;
+}
