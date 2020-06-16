@@ -163,7 +163,7 @@
                <p class="lead text-muted service_text_align team_member_infor"><a class = "email_link" href="mailto:baystardental@gmail.com?subject=The%20subject%20of%20the%20mail">baystardental@gmail.com</a></p>
                <br/>
                <h3 class="lead text-muted service_text_align ">ADDRESS:</h3>
-               <p class="lead text-muted service_text_align team_member_infor"><a class = "email_link" href="http://maps.google.com/?q=406 N San Mateo Dr, San Mateo, CA 94401">406 N San Mateo Dr. Suite B, San Mateo, CA 94401</a></p>
+               <p class="lead text-muted service_text_align team_member_infor"><a class = "email_link" href="http://maps.google.com/?q=406 N San Mateo Dr, San Mateo, CA 94401" target="_blank">406 N San Mateo Dr. Suite B, San Mateo, CA 94401</a></p>
                <br/>
                <h3 class="lead text-muted service_text_align ">WORKING HOURS:</h3>
                <p class="lead text-muted service_text_align team_member_infor">MONDAY: 9:00 AM - 6:00 PM</p>
@@ -176,7 +176,7 @@
             </div>
             <div id ="con_right" class="col-lg" style="height:674px">
                <div id="map"></div>
-               <div id="content">Bay Star Dental<br/>406 N San Mateo Dr. Suite B, San Mateo, CA94401<br/><a class = "email_link" href="http://maps.google.com/?q=406 N San Mateo Dr, San Mateo, CA 94401">View on Google Maps</a></div>
+               <div id="content">Bay Star Dental<br/>406 N San Mateo Dr. Suite B, San Mateo, CA94401<br/><a class = "email_link" href="http://maps.google.com/?q=406 N San Mateo Dr, San Mateo, CA 94401" target="_blank">View on Google Maps</a></div>
             </div>
          </div>
       </div>
