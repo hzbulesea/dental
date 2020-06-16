@@ -19,6 +19,54 @@
       margin: 0;
       padding: 0;
       }
+      /* The popup bubble styling. */
+      .popup-bubble {
+        /* Position the bubble centred-above its parent. */
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -100%);
+        /* Style the bubble. */
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        overflow-y: auto;
+        max-height: 60px;
+        box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+      }
+      /* The parent of the bubble. A zero-height div at the top of the tip. */
+      .popup-bubble-anchor {
+        /* Position the div a fixed distance above the tip. */
+        position: absolute;
+        width: 100%;
+        bottom: /* TIP_HEIGHT= */ 8px;
+        left: 0;
+      }
+      /* This element draws the tip. */
+      .popup-bubble-anchor::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* Center the tip horizontally. */
+        transform: translate(-50%, 0);
+        /* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
+        width: 0;
+        height: 0;
+        /* The tip is 8px high, and 12px wide. */
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: /* TIP_HEIGHT= */ 8px solid white;
+      }
+      /* JavaScript will position this div at the bottom of the popup tip. */
+      .popup-container {
+        cursor: auto;
+        height: 0;
+        position: absolute;
+        /* The max width of the info window. */
+        width: 200px;
+      }
    </style>
 </head>
 <body>
@@ -109,13 +157,13 @@
                <h1 class="jumbotron-heading service_text_align">Contact</h1>
                <br/>
                <h3 class="lead text-muted service_text_align ">PHONE:</h3>
-               <p class="lead text-muted service_text_align team_member_infor">650-342-8874</p>
+               <p class="lead text-muted service_text_align team_member_infor"><a href="tel:650-342-8874" class="email_link">650-342-8874</a></p>
                <br/>
                <h3 class="lead text-muted service_text_align ">EMAIL:</h3>
                <p class="lead text-muted service_text_align team_member_infor"><a class = "email_link" href="mailto:baystardental@gmail.com?subject=The%20subject%20of%20the%20mail">baystardental@gmail.com</a></p>
                <br/>
                <h3 class="lead text-muted service_text_align ">ADDRESS:</h3>
-               <p class="lead text-muted service_text_align team_member_infor">406 N San Mateo Dr. Suite B, San Mateo, CA94401</p>
+               <p class="lead text-muted service_text_align team_member_infor"><a class = "email_link" href="http://maps.google.com/?q=406 N San Mateo Dr, San Mateo, CA 94401">406 N San Mateo Dr. Suite B, San Mateo, CA 94401</a></p>
                <br/>
                <h3 class="lead text-muted service_text_align ">WORKING HOURS:</h3>
                <p class="lead text-muted service_text_align team_member_infor">MONDAY: 9:00 AM - 6:00 PM</p>
@@ -128,13 +176,15 @@
             </div>
             <div id ="con_right" class="col-lg" style="height:674px">
                <div id="map"></div>
+               <div id="content">Bay Star Dental<br/>406 N San Mateo Dr. Suite B, San Mateo, CA94401<br/><a class = "email_link" href="http://maps.google.com/?q=406 N San Mateo Dr, San Mateo, CA 94401">View on Google Maps</a></div>
             </div>
          </div>
       </div>
    </section>
    <script>
+      var popup, Popup;
       function initMap() {
-        var myLatLng = {lat: 37.572340, lng: -122.332610};
+        var myLatLng = {lat: 37.5725625, lng: -122.3325478};
       
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 16,
@@ -146,7 +196,75 @@
           map: map,
           title: 'Bay Star Dental'+'\n406 N San Mateo Dr. Suite B, San Mateo, CA94401'
         });
+        Popup = createPopupClass();
+        popup = new Popup(
+        new google.maps.LatLng(37.573120, -122.332529),
+        document.getElementById('content'));
+        popup.setMap(map);
       }
+
+      function createPopupClass() {
+  /**
+   * A customized popup on the map.
+   * @param {!google.maps.LatLng} position
+   * @param {!Element} content The bubble div.
+   * @constructor
+   * @extends {google.maps.OverlayView}
+   */
+  function Popup(position, content) {
+    this.position = position;
+
+    content.classList.add('popup-bubble');
+
+    // This zero-height div is positioned at the bottom of the bubble.
+    var bubbleAnchor = document.createElement('div');
+    bubbleAnchor.classList.add('popup-bubble-anchor');
+    bubbleAnchor.appendChild(content);
+
+    // This zero-height div is positioned at the bottom of the tip.
+    this.containerDiv = document.createElement('div');
+    this.containerDiv.classList.add('popup-container');
+    this.containerDiv.appendChild(bubbleAnchor);
+
+    // Optionally stop clicks, etc., from bubbling up to the map.
+    google.maps.OverlayView.preventMapHitsAndGesturesFrom(this.containerDiv);
+  }
+  // ES5 magic to extend google.maps.OverlayView.
+  Popup.prototype = Object.create(google.maps.OverlayView.prototype);
+
+  /** Called when the popup is added to the map. */
+  Popup.prototype.onAdd = function() {
+    this.getPanes().floatPane.appendChild(this.containerDiv);
+  };
+
+  /** Called when the popup is removed from the map. */
+  Popup.prototype.onRemove = function() {
+    if (this.containerDiv.parentElement) {
+      this.containerDiv.parentElement.removeChild(this.containerDiv);
+    }
+  };
+
+  /** Called each frame when the popup needs to draw itself. */
+  Popup.prototype.draw = function() {
+    var divPosition = this.getProjection().fromLatLngToDivPixel(this.position);
+
+    // Hide the popup when it is far out of view.
+    var display =
+        Math.abs(divPosition.x) < 4000 && Math.abs(divPosition.y) < 4000 ?
+        'block' :
+        'none';
+
+    if (display === 'block') {
+      this.containerDiv.style.left = divPosition.x + 'px';
+      this.containerDiv.style.top = divPosition.y + 'px';
+    }
+    if (this.containerDiv.style.display !== display) {
+      this.containerDiv.style.display = display;
+    }
+  };
+
+  return Popup;
+}
    </script>
    <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfB2MdmCUUxEvq0DsPLtumwx8qm9ElUyc&callback=initMap"></script>

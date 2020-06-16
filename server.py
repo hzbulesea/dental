@@ -1,12 +1,62 @@
-
-from bottle import get, route, run, template, static_file, request, post
-
-
-
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from datetime import datetime
+from bottle import get, route, run, template, static_file, request, post,redirect
 
 @get('/')
 def main():
-    return template('main')
+    return template("main")
+
+@post('/')
+def message_send():
+    first_name = request.forms.get('first_name') 
+    last_name = request.forms.get('last_name') 
+    email_address = request.forms.get('email_address')
+    cellphone_number = request.forms.get('cellphone_number')
+    message_content = request.forms.get('message_content')
+
+    if check(first_name) and check(last_name) and check(email_address) and check(cellphone_number) and check(message_content):
+        sentmassage(first_name,last_name,email_address,cellphone_number,message_content)
+    return redirect('/')
+
+#sent the message to gmail
+#baystardentistry_helper@gmail.com
+#Baystar2020
+def sentmassage(first,last,email,cellphone,message):
+    mail_host = "smtp.gmail.com"  # SMTP
+    mail_user = "baystardentistry.helper@gmail.com"  # username
+    mail_pass = "Baystar2020"  # Authorization code
+    
+    sender = mail_user  # sender
+    receivers = ['hzbulesea@gmail.com']  # receive
+    
+    # get current time
+    now = datetime.now()
+    dt_string = now.strftime("%d/%m/%Y %H:%M")
+
+    content = 'Dear Dr. Zhang,' + "\n\nPaitent's Name: "+ str(first) + " " + str(last) + "\nPaitent's Email: " + str(email) + "\nPaitent's Cellphone: "+ str(cellphone) +"\nMessage: " + str(message)
+    title = dt_string + ' - Make an Appointment - '+ first + " " + last  # subject
+    message = MIMEText(content, 'plain', 'utf-8')  # content, formate, coding
+    message['From'] = "{}".format(sender)
+    message['To'] = ",".join(receivers)
+    message['Subject'] = title
+    
+    try:
+        smtpObj = smtplib.SMTP_SSL(mail_host, 465)  # use SSL send, port 465
+        smtpObj.login(mail_user, mail_pass)  # login check
+        smtpObj.sendmail(sender, receivers, message.as_string())  # send
+        print("mail has been send successfully.")
+    except smtplib.SMTPException as e:
+        print(e)
+
+
+#check the input is None or ""
+def check(str):
+    if str is not None and str != "":
+        return True
+    else:
+        return False
 
 @get('/about')
 def about():
