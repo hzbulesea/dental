@@ -188,7 +188,8 @@
       
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 16,
-          center: myLatLng
+          center: myLatLng,
+          zoomControl: false,
         });
       
         var marker = new google.maps.Marker({
