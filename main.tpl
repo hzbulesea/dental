@@ -6,7 +6,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
    <script type="text/javascript" src="js/bootstrap.min.js"></script>
    <script type="text/javascript" src="js/customer.js"></script>
-   <title>Dentist San Mateo, CA | Dr. Allen Lee | Dentist San Mateo CA</title>
+   <title>Dentist San Mateo, CA | Dr. Xuyu Zhang | Dentist San Mateo CA</title>
 </head>
 <body>
 
@@ -137,12 +137,21 @@
                      <div id="email_status" class="invalid-feedback">Please provide a valid email address</div>
                   </div>
                   <div class="form-group">
-                     <input id="phone_number" type="text" class="form-control"  placeholder="Phone" name="cellphone_number">
+                     <input id="phone_number" type="text" class="form-control"  placeholder="Phone xxx-xxx-xxxx" name="cellphone_number">
                      <div id="phone_status" class="invalid-feedback">Please provide a valid phone number</div>
                   </div>
                   <div class="form-group">
-                     <label for="message-text" class="col-form-label">Message:</label>
-                     <textarea id="message_text" class="form-control"  name="message_content"></textarea>
+                        <select id="message_text" class="form-control">
+                           <option selected disabled value="">Choose Service...</option>
+                           <option>Comprehensive Care</option>
+                           <option>Dental Veneers, Crowns & Bridges</option>
+                           <option>Emergency Care</option>
+                           <option>Oral Surgery</option>
+                           <option>Implants</option>
+                           <option>Root Canal</option>
+                           <option>Teeth Whitening</option>
+                           <option>White Filling</option>
+                        </select>
                   </div>
             </div>
             <!-- Make an Appointment - Button -->

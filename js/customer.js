@@ -46,13 +46,23 @@ $(document).ready(function () {
     var phonenumber_status = false;
     var email_status = false;
     var message_status = false;
+    var first_name = "";
+    var last_name = "";
 
     //first_name
     $('#first_name').on('input propertychange', function() {
-        if ($(this).val().length > 0){
-            $(this).removeClass("is-invalid");
-            $(this).addClass("is-valid");
-            first_name_status = true;
+        first_name = $(this).val();
+        first_name = first_name.replace(/[^A-Za-z]/ig,'');
+        if (first_name.length > 0){
+            if(first_name != "" &&  last_name != first_name){
+                $(this).removeClass("is-invalid");
+                $(this).addClass("is-valid");
+                first_name_status = true;
+            }else{
+                $(this).removeClass("is-valid");
+                $(this).addClass("is-invalid");
+                first_name_status = false;
+            }
         }else{
             $(this).removeClass("is-valid");
             $(this).addClass("is-invalid");
@@ -63,10 +73,18 @@ $(document).ready(function () {
 
     //last_name
     $('#last_name').on('input propertychange', function() {
-        if ($(this).val().length > 0){
-            $(this).removeClass("is-invalid");
-            $(this).addClass("is-valid");
-            last_name_status = true;
+        last_name = $(this).val();
+        last_name = last_name.replace(/[^A-Za-z]/ig,'');
+        if (last_name.length > 0){
+            if(last_name != "" &&  first_name != last_name){
+                $(this).removeClass("is-invalid");
+                $(this).addClass("is-valid");
+                last_name_status = true;
+            }else{
+                $(this).removeClass("is-valid");
+                $(this).addClass("is-invalid");
+                last_name_status = false;
+            }
         }else{
             $(this).removeClass("is-valid");
             $(this).addClass("is-invalid");
@@ -77,9 +95,9 @@ $(document).ready(function () {
 
     //phone_number
     $('#phone_number').on('input propertychange', function() {
-        phone = $(this).val();
-        phone = phone.replace(/[^0-9]/g,'');
-        if (phone.length != 10)
+        var phone = $(this).val();
+        var reg = /^[2-9]\d{2}-\d{3}-\d{4}$/;
+        if (!reg.test(phone))
         {
             $(this).removeClass("is-valid");
             $(this).addClass("is-invalid");
@@ -95,7 +113,7 @@ $(document).ready(function () {
     //email_address
     $('#email_address').on('input propertychange', function() {
         var email = $(this).val();
-        var reg = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+        var reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if (!reg.test(email))
         {
             $(this).removeClass("is-valid");

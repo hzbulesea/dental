@@ -6,7 +6,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
    <script type="text/javascript" src="js/bootstrap.min.js"></script>
    <script type="text/javascript" src="js/customer.js"></script>
-   <title>Dentist San Mateo, CA | Dr. Allen Lee | Dentist San Mateo CA</title>
+   <title>Dentist San Mateo, CA | Dr. Xuyu Zhang | Dentist San Mateo CA</title>
 </head>
 <body>
    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
