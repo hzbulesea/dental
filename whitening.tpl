@@ -37,6 +37,7 @@
                   <a class="dropdown-item" href="canals">Root Canals</a>
                   <a class="dropdown-item active" href="#">Teeth Whitening</a>
                   <a class="dropdown-item" href="filings">White Filings</a>
+                  <a class="dropdown-item" href="xray">3D X-ray-Vatech CBCT</a>
                </div>
             </li>
             <li class="nav-item">

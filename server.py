@@ -114,6 +114,10 @@ def warning():
 def member():
     return template("member")
 
+@get('/xray')
+def  member():
+    return template("xray")
+
 ################################################################################
 # Let's add some code to serve jpg images from our static images directory.
 @route('/images/<filename:re:.*\.*>')

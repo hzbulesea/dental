@@ -23,7 +23,7 @@
             <li class="nav-item">
                <a class="nav-link tab_width" href="about">About</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
                <a class="nav-link tab_width dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                Services
@@ -37,20 +37,20 @@
                   <a class="dropdown-item" href="canals">Root Canals</a>
                   <a class="dropdown-item" href="whitening">Teeth Whitening</a>
                   <a class="dropdown-item" href="filings">White Filings</a>
-                  <a class="dropdown-item" href="xray">3D X-ray-Vatech CBCT</a>
+                  <a class="dropdown-item active" href="#">3D X-ray-Vatech CBCT</a>
                </div>
             </li>
             <li class="nav-item">
                <a class="nav-link tab_width" href="member">Membership</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                <a class="nav-link tab_width" href="review">Reviews</a>
             </li>
             <li class="nav-item">
                <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
             <li class="nav-item">
-               <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
+              <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
             </li>
          </ul>
       </div>
@@ -89,34 +89,36 @@
       <span class="sr-only">Next</span>
       </a>
    </div>
-   <main role="main">
-      <section id = "section_margin_bt" class="jumbotron text-center">
-         <div class="container">
-            <h1 class="jumbotron-heading service_text_align text-center">What Patients Say About Us</h1>
-            <br/>
-            <div class="card card_color" >
-               <div class="card-body">
-                  <p class="card-text text-left">Dr. Zhang is great! He is very detailed and willingly to take time to explain everything in detail. He is truly awesome with kids as well, very outstanding in keeping my girls’ at ease during treatments.  So our whole family goes to Dr. Zhang!!</p>
-                  <p style="float:right">Sarah Chang</p>
-               </div>
+      <main role="main">
+   <section id = "section_margin_bt" class="jumbotron text-center">
+      <div class="container">
+         <h1 class="jumbotron-heading service_text_align">3D X-ray-Vatech CBCT </h1>
+         <br/>
+         <h5 class="lead text-muted service_text_align">
+            Cone Beam Computed Tomography (CBCT) technology is changing the way dentistry can be delivered. Bay Star Dental is committed to providing the highest quality care, and we’re proud to introduce the Vatech CBCT 3D Smart into our practice. This technology allows our team to view and diagnose individuals like never before. Traditional 2-D X-rays still have a place in dentistry, but 3-D imaging can allow for improved planning, earlier diagnosis, more efficient treatment, and it’s  pretty cool!
+            <br/><br/>
+            <div class ="image_left">
+               <img src="/images/Picture1.png" style="width:50%;">
             </div>
             <br/>
-            <div class="card card_color" >
-               <div class="card-body">
-                  <p class="card-text text-left">Dr. Zhang and his staff are very friendly and professional. My entire extraction and bone graft procedure was very smooth and painless. Highly recommend him.</p>
-                  <p style="float:right">Jialing Zhao</p>
-               </div>
-            </div>
-            <br/>
-            <div class="card card_color" >
-               <div class="card-body">
-                  <p class="card-text text-left">The whole wisdom teeth removal experience was amazing!! I would give 10 stars for Dr.Zhang if I could!</p>
-                  <p style="float:right">Zi Li</p>
-               </div>
-            </div>
-            <br/>
+            Quick – Comfortable – Effective   
+            <ul>
+               <li>Vatech 3D Smart images are highly detailed.</li>
+               <li>Vatech 3D Smart scan only takes 18 seconds, which results in significantly less radiation exposure than the traditional CT scanners.</li>
+               <li>Dr. Xuyu Zhang can analyze the position and orientation of critical structures, like nerves, teeth roots, previous implants, the sinus, and nose, helping to make implant placement as accurate as possible.</li>
+               <li>With this advanced imaging technology, we are able to ensure the long-term stability of your implant better than ever before.</li>
+               <li>We can focus on your desired aesthetic outcome throughout your entire treatment process.</li>
+            </ul>
+         </h5>
+         <br/>
+         <div class ="image_left">
+            <img src="/images/Picture2.png" style="width:50%;">
          </div>
-      </section>
+         <br/><br/>
+      </div>
+   </section>
+            <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
+         <script>kleerWidget.init("ZK6C", "light")</script>
    </main>
    <footer class="page-footer font-small blue pt-4" style="background-color: #4cdbff; color:rgba(255, 255, 255, 0.7);">
    <!-- Footer Links -->
