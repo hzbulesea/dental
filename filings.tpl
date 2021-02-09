@@ -32,7 +32,7 @@
                   <a class="dropdown-item" href="compre">Comprehensive Care</a>
                   <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
                   <a class="dropdown-item" href="emergency">Emergency Care</a>
-                  <a class="dropdown-item" href="#">Oral Surgery</a>
+                  <a class="dropdown-item" href="surgery">Oral Surgery</a>
                   <a class="dropdown-item" href="implants">Implants</a>
                   <a class="dropdown-item" href="canals">Root Canals</a>
                   <a class="dropdown-item" href="whitening">Teeth Whitening</a>
@@ -42,9 +42,6 @@
             </li>
             <li class="nav-item">
                <a class="nav-link tab_width" href="member">Membership</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link tab_width" href="review">Reviews</a>
             </li>
             <li class="nav-item">
                <a class="nav-link tab_width" href="contact">Contact</a>
@@ -96,16 +93,16 @@
          <br/>
          <h3 class="lead text-muted service_text_side_title">What is a cavity?</h3>
          <h5 class="lead text-muted service_text_align">
-            Bacteria is normally present in the mouth and changes food into acids. The combination of bacteria, acids, food debris, and saliva form plaque. <span style="font-weight:bold;">If plaque is not removed by proper flossing and brushing, the decay process begins. </span>As the acids in the plaque begin to weaken and dissolve the enamel, holes in the teeth are created. This is what we call cavities. 
+            Bacteria is normally present in the mouth and changes food into acids. The combination of bacteria, acids, food debris, and saliva form plaque. <span style="font-weight:bold;">If plaque is not removed by proper flossing and brushing, the decay process begins. </span>As the acids in the plaque begin to weaken and dissolve the enamel, holes in the teeth are created. This is what we call cavities.
          </h5>
          <br/>
          <h3 class="lead text-muted service_text_side_title ">Composite (White) Filling</h3>
          <h5 class="lead text-muted service_text_align">
-            Nobody likes cavities. But unfortunately almost everyone will have to deal with one at some point in their life — no matter how well you brush and floss. Your genetics, the foods you eat, and even the natural bacteria in your mouth all contribute to your risk of tooth decay. 
+            Nobody likes cavities. But unfortunately almost everyone will have to deal with one at some point in their life — no matter how well you brush and floss. Your genetics, the foods you eat, and even the natural bacteria in your mouth all contribute to your risk of tooth decay.
          </h5>
          <br/>
          <h5 class="lead text-muted service_text_align">
-            If you do get a cavity, there’s good news. At Bay Star Dental, we offer natural white fillings. Made from a durable composite material, they’re a great alternative to old-fashioned silver mercury amalgam fillings. Not only are they durable, they look great, too! You’ll be able to smile with confidence. 
+            If you do get a cavity, there’s good news. At Bay Star Dental, we offer natural white fillings. Made from a durable composite material, they’re a great alternative to old-fashioned silver mercury amalgam fillings. Not only are they durable, they look great, too! You’ll be able to smile with confidence.
          </h5>
          <div class ="image_left">
             <img src="/images/filling.jpg" style="width:50%;">
@@ -181,9 +178,6 @@
                   <a class = "foot_link_color" href="member">Membership</a>
                </li>
                <li>
-                  <a class = "foot_link_color" href="review">Reviews</a>
-               </li>
-               <li>
                   <a class = "foot_link_color" href="contact">Contact</a>
                </li>
             </ul>
@@ -199,4 +193,28 @@
    </div>
    <!-- Copyright -->
 </footer>
+<script type="text/javascript">
+   (function(){
+   var AMP_KEY="xFXixeEi8qqldqypmM9GbuBzVIdNCmt";window._AMP_CONF=window._AMP_CONF || {};window._AMP_CONF.key=AMP_KEY;
+   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+   s1.async=true;
+   s1.src='https://embed.simplifeye.co/xFXixeEi8qqldqypmM9GbuBzVIdNCmt/embed';
+   s1.charset='UTF-8';
+   s1.setAttribute('crossorigin','*');
+   s0.parentNode.insertBefore(s1,s0);
+   })();
+</script>
+<div>
+   <a style='display: block; display:none;' href='https://www.zocdoc.com/practice/bay-star-dental-46062' class='zd-plugin' data-type='book-button' data-practice-id='46062' title='Bay Star Dental'>
+   <img src='https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png' alt='Bay Star Dental' title='Bay Star Dental' style='border: 0'/>
+   </a>
+</div>
+<script>
+      (function (d) {var script = d.createElement('script'); 
+      script.type = 'text/javascript'; script.async = true; 
+      script.src = 'https://offsiteschedule.zocdoc.com/plugin/embed';
+      var s = d.getElementsByTagName('script')[0]; 
+      s.parentNode.insertBefore(script, s);
+      })(document);
+   </script>
 </body>

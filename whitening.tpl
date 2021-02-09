@@ -32,7 +32,7 @@
                   <a class="dropdown-item" href="compre">Comprehensive Care</a>
                   <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
                   <a class="dropdown-item" href="emergency">Emergency Care</a>
-                  <a class="dropdown-item" href="#">Oral Surgery</a>
+                  <a class="dropdown-item" href="surgery">Oral Surgery</a>
                   <a class="dropdown-item" href="implants">Implants</a>
                   <a class="dropdown-item" href="canals">Root Canals</a>
                   <a class="dropdown-item active" href="#">Teeth Whitening</a>
@@ -42,9 +42,6 @@
             </li>
             <li class="nav-item">
                <a class="nav-link tab_width" href="member">Membership</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link tab_width" href="review">Reviews</a>
             </li>
             <li class="nav-item">
                <a class="nav-link tab_width" href="contact">Contact</a>
@@ -100,16 +97,16 @@
             </h5>
             <br/>
             <h5 class="lead text-muted service_text_align">
-               You’ll be surprised to find out that the entire whitening procedure takes only about an hour to complete as compared to other methods making it more convenient and easy. Before any whitening session, we will ensure that your teeth is free of plaque and bacteria and hence, you will have to go through a cleaning session. This is important as a clean set of teeth will allow deeper penetration of the whitening gel. 
+               You’ll be surprised to find out that the entire whitening procedure takes only about an hour to complete as compared to other methods making it more convenient and easy. Before any whitening session, we will ensure that your teeth is free of plaque and bacteria and hence, you will have to go through a cleaning session. This is important as a clean set of teeth will allow deeper penetration of the whitening gel.
             </h5>
             <br/><br/>
             <h3 class="lead text-muted service_text_side_title ">Custom Take-Home Trays</h3>
             <h5 class="lead text-muted service_text_align">
-               Whitening with custom trays is the system that has been most widely used over time. We make models of your teeth and fabricate a clear plastic tray that fits perfectly. You are given syringes of whitening gel which goes in your trays. Then you wear your trays with the gel in them for 30 minutes to an hour. The peroxide gel enters your teeth and, through the same process as other professional whitening systems, whitens your teeth from the inside-out. 
+               Whitening with custom trays is the system that has been most widely used over time. We make models of your teeth and fabricate a clear plastic tray that fits perfectly. You are given syringes of whitening gel which goes in your trays. Then you wear your trays with the gel in them for 30 minutes to an hour. The peroxide gel enters your teeth and, through the same process as other professional whitening systems, whitens your teeth from the inside-out.
             </h5>
             <br/>
             <h5 class="lead text-muted service_text_align">
-               One of the benefits of having these trays is that when you run out of gel, you only need to purchase more gel syringes, not a whole new system. So, it’s great for touch-ups (say after a month of heavy Starbucks). 
+               One of the benefits of having these trays is that when you run out of gel, you only need to purchase more gel syringes, not a whole new system. So, it’s great for touch-ups (say after a month of heavy Starbucks).
             </h5>
             <br/>
          </div>
@@ -182,9 +179,6 @@
                   <a class = "foot_link_color" href="member">Membership</a>
                </li>
                <li>
-                  <a class = "foot_link_color" href="review">Reviews</a>
-               </li>
-               <li>
                   <a class = "foot_link_color" href="contact">Contact</a>
                </li>
             </ul>
@@ -200,4 +194,28 @@
    </div>
    <!-- Copyright -->
 </footer>
+<script type="text/javascript">
+   (function(){
+   var AMP_KEY="xFXixeEi8qqldqypmM9GbuBzVIdNCmt";window._AMP_CONF=window._AMP_CONF || {};window._AMP_CONF.key=AMP_KEY;
+   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+   s1.async=true;
+   s1.src='https://embed.simplifeye.co/xFXixeEi8qqldqypmM9GbuBzVIdNCmt/embed';
+   s1.charset='UTF-8';
+   s1.setAttribute('crossorigin','*');
+   s0.parentNode.insertBefore(s1,s0);
+   })();
+</script>
+<div>
+   <a style='display: block; display:none;' href='https://www.zocdoc.com/practice/bay-star-dental-46062' class='zd-plugin' data-type='book-button' data-practice-id='46062' title='Bay Star Dental'>
+   <img src='https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png' alt='Bay Star Dental' title='Bay Star Dental' style='border: 0'/>
+   </a>
+</div>
+<script>
+      (function (d) {var script = d.createElement('script'); 
+      script.type = 'text/javascript'; script.async = true; 
+      script.src = 'https://offsiteschedule.zocdoc.com/plugin/embed';
+      var s = d.getElementsByTagName('script')[0]; 
+      s.parentNode.insertBefore(script, s);
+      })(document);
+</script>
 </body>

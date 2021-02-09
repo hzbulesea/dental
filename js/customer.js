@@ -29,11 +29,10 @@ $(document).ready(function () {
     });
 
     //about page
-    var profilehight1 = $("#profile02").height();
-    $("#profile01").height(profilehight1);
-    var profilehight2 = $("#profile03").height();
-    $("#profile04").height(profilehight2);
-    $("#profile05").height(profilehight2);
+    var profilehight1 = $("#profile01").height();
+    $("#profile02").height(profilehight1);
+    $("#profile03").height(profilehight1);
+    $("#profile04").height(profilehight1);
 
     //contact page
     // $("#right_container").height($("#left_container").height);
@@ -203,11 +202,10 @@ $(document).ready(function () {
 
 $(window).resize(function () {
     //about page
-    var profilehight1 = $("#profile02").height();
-    $("#profile01").height(profilehight1);
-    var profilehight2 = $("#profile03").height();
-    $("#profile04").height(profilehight2);
-    $("#profile05").height(profilehight2);
+    var profilehight1 = $("#profile01").height();
+    $("#profile02").height(profilehight1);
+    $("#profile03").height(profilehight1);
+    $("#profile04").height(profilehight1);
 
     //contact page
     var contactHeight = $("#con_left").height();

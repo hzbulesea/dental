@@ -66,10 +66,6 @@ def about():
 def service():
     return template("service")
 
-@get('/review')
-def review():
-    return template("review")
-
 @get('/contact')
 def contact():
     return template("contact")
@@ -115,7 +111,7 @@ def member():
     return template("member")
 
 @get('/xray')
-def  member():
+def xray():
     return template("xray")
 
 ################################################################################
@@ -139,6 +135,6 @@ def serve_js(filename):
 # def serve_font(filename):
 #     return static_file(filename, root='fonts', mimetype='fonts/woff ttf')
 
-run(host='localhost', port=8080)
+run(host='localhost', port=8888)
 
 

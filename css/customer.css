@@ -70,6 +70,10 @@
 .card_color{
     background-color: #e9ecef !important;
 }
+
+.about_left{
+    text-align: left;
+}
 #section_margin_bt{
     margin-bottom: 0px;
 }
@@ -86,4 +90,8 @@
 .email_link:hover{
     color:6c757d;
     text-decoration: underline;
+}
+
+.fix_position{
+    bottom: 100px !important;
 }

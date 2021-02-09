@@ -44,9 +44,6 @@
                <a class="nav-link tab_width" href="member">Membership</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link tab_width" href="review">Reviews</a>
-            </li>
-            <li class="nav-item">
                <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
             <li class="nav-item">
@@ -104,7 +101,7 @@
          <br/><br/>
          <h3 class="lead text-muted service_text_side_title ">Crowns</h3>
          <h5 class="lead text-muted service_text_align">
-            Crowns are full-coverage restorations that are used to cover a tooth that is likely to break or is too damaged to be corrected with a traditional filling. They can also provide a good aesthetic result. 
+            Crowns are full-coverage restorations that are used to cover a tooth that is likely to break or is too damaged to be corrected with a traditional filling. They can also provide a good aesthetic result.
          </h5>
          <div class ="image_left">
             <img src="/images/crown.jpg" style="width:50%;">
@@ -193,9 +190,6 @@
                   <a class = "foot_link_color" href="member">Membership</a>
                </li>
                <li>
-                  <a class = "foot_link_color" href="review">Reviews</a>
-               </li>
-               <li>
                   <a class = "foot_link_color" href="contact">Contact</a>
                </li>
             </ul>
@@ -211,4 +205,28 @@
    </div>
    <!-- Copyright -->
 </footer>
+<script type="text/javascript">
+   (function(){
+   var AMP_KEY="xFXixeEi8qqldqypmM9GbuBzVIdNCmt";window._AMP_CONF=window._AMP_CONF || {};window._AMP_CONF.key=AMP_KEY;
+   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+   s1.async=true;
+   s1.src='https://embed.simplifeye.co/xFXixeEi8qqldqypmM9GbuBzVIdNCmt/embed';
+   s1.charset='UTF-8';
+   s1.setAttribute('crossorigin','*');
+   s0.parentNode.insertBefore(s1,s0);
+   })();
+</script>
+<div>
+   <a style='display: block; display:none;' href='https://www.zocdoc.com/practice/bay-star-dental-46062' class='zd-plugin' data-type='book-button' data-practice-id='46062' title='Bay Star Dental'>
+   <img src='https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png' alt='Bay Star Dental' title='Bay Star Dental' style='border: 0'/>
+   </a>
+</div>
+<script>
+      (function (d) {var script = d.createElement('script'); 
+      script.type = 'text/javascript'; script.async = true; 
+      script.src = 'https://offsiteschedule.zocdoc.com/plugin/embed';
+      var s = d.getElementsByTagName('script')[0]; 
+      s.parentNode.insertBefore(script, s);
+      })(document);
+   </script>
 </body>

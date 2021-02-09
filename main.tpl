@@ -9,18 +9,15 @@
    <title>Dentist San Mateo, CA | Dr. Xuyu Zhang | Dentist San Mateo CA</title>
 </head>
 <body>
-
    <!-- Menu Group-->
    <nav id = "head_height" class="navbar navbar-expand-lg navbar-dark" style="background-color: #00ccff;">
       <!-- Logo-->
       <a href="/"><img src="/images/logo.png" style="width:170px; height:80px float: left; "></a>
-      
       <!-- collapse button-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
          aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation"><span
          class="navbar-toggler-icon"></span>
       </button>
-
       <!-- Menu-->
       <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
          <ul class="navbar-nav" id="font_menu_24">
@@ -32,7 +29,10 @@
             </li>
             <!-- Services - Dropdown List-->
             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle tab_width" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+               <a class="nav-link tab_width dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+               Services
+               </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown turquoise">
                   <a class="dropdown-item" href="compre">Comprehensive Care</a>
                   <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
@@ -46,14 +46,11 @@
                </div>
             </li>
             <li class="nav-item"><a class="nav-link tab_width" href="member">Membership</a></li>
-            <li class="nav-item"><a class="nav-link tab_width" href="review">Reviews</a></li>
             <li class="nav-item"><a class="nav-link tab_width" href="contact">Contact</a></li>
             <li class="nav-item"><a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a></li>
          </ul>
       </div>
-
    </nav>
-
    <!-- Alert Message -->
    <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom:0px !important;">
       <div class = "message_align">
@@ -64,10 +61,9 @@
          <p><a href="warning" target="_blank">Click here</a> to read an update from Dr. Zhang regarding COVID-19 safety measures and what to expect at your next appointment.</p>
       </div>
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-         <span aria-hidden="true">&times;</span>
+      <span aria-hidden="true">&times;</span>
       </button>
    </div>
-
    <!-- carousel -->
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
       <ol class="carousel-indicators">
@@ -77,7 +73,6 @@
          <li data-target="#carouselExampleIndicators" data-slide-to="3" class="item3 "></li>
          <li data-target="#carouselExampleIndicators" data-slide-to="4" class="item3 "></li>
       </ol>
-
       <!-- carousel image -->
       <div id = "img_height" class="carousel-inner" style=“position:relative;”>
          <div class="carousel-item active">
@@ -96,75 +91,16 @@
             <img src="images/item05.jpg" alt="Couple" width="100%" height="auto">
          </div>
       </div>
-      
       <!-- carousel previouse & Next button -->
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
       </a>
    </div>
-
-   <!-- appointment button -->
-      <button data-toggle="modal" data-target="#exampleModalCenter" id = "appoint" style="width:300px;height:60px;font-size: large;font-weight: bold;border: 1px solid transparent; border-radius: 100px;color:white;background-color: #00ccff; float: right; position: fixed; right: 30px; top: 500px; z-index:5;" type="button">MAKE AN APPOINTMENT</button>
-
-   <!-- Make an Appointment -->
-   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-         <div class="modal-content">
-            <div class="modal-header">
-               <h5 class="modal-title" id="exampleModalLabel">Make an Appointment</h5>
-               <button id = "cross_button" type="button" class="close" data-dismiss="modal" aria-label="Close">
-               <span aria-hidden="true">&times;</span>
-               </button>
-            </div>
-
-            <form action="/" method="post">
-            <div class="modal-body">
-                  <div class="form-row">
-                     <div class="col">
-                        <input id="first_name" type="text" class="form-control" placeholder="First name" name="first_name">
-                     </div>
-                     <div class="col">
-                        <input id="last_name" type="text" class="form-control" placeholder="Last name" name="last_name">
-                     </div>
-                  </div>
-                  <div class="form-group">
-                     <label for="recipient-name" class="col-form-label"></label>
-                     <input id="email_address" type="text" class="form-control"  placeholder="Email" name="email_address">
-                     <div id="email_status" class="invalid-feedback">Please provide a valid email address</div>
-                  </div>
-                  <div class="form-group">
-                     <input id="phone_number" type="text" class="form-control"  placeholder="Phone xxx-xxx-xxxx" name="cellphone_number">
-                     <div id="phone_status" class="invalid-feedback">Please provide a valid phone number</div>
-                  </div>
-                  <div class="form-group">
-                        <select id="message_text" class="form-control">
-                           <option selected disabled value="">Choose Service...</option>
-                           <option>Comprehensive Care</option>
-                           <option>Dental Veneers, Crowns & Bridges</option>
-                           <option>Emergency Care</option>
-                           <option>Oral Surgery</option>
-                           <option>Implants</option>
-                           <option>Root Canal</option>
-                           <option>Teeth Whitening</option>
-                           <option>White Filling</option>
-                        </select>
-                  </div>
-            </div>
-            <!-- Make an Appointment - Button -->
-            <div class="modal-footer">
-               <button id = "close_button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-               <button id = "send_button" type="submit" class="btn btn-primary" disabled>Send</button>
-            </div>
-            </form>
-         </div>
-      </div>
-   </div>
-
    <!-- main body -->
    <main role="main">
       <section id = "section_margin_bt" class="jumbotron text-center">
@@ -176,14 +112,13 @@
                lasting relationships, going beyond “fixing teeth.” We are committed to provide you with the highest
                quality of dental care in a safe and comfortable setting. Whether you’re ready for a smile makeover or
                are just in need of routine preventative care, we are your family’s choice dentist in San Mateo,
-               CA. 
+               CA.
             </p>
          </div>
       </section>
       <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
       <script>kleerWidget.init("ZK6C", "light")</script>
    </main>
-
    <!-- footer -->
    <footer class="page-footer font-small blue pt-4" style="background-color: #4cdbff; color:rgba(255, 255, 255, 0.7);">
       <div class="container-fluid text-md-left">
@@ -219,7 +154,6 @@
                <ul class="list-unstyled">
                   <li><a class = "foot_link_color" href="about">About</a></li>
                   <li><a class = "foot_link_color" href="member">Membership</a></li>
-                  <li><a class = "foot_link_color" href="review">Reviews</a></li>
                   <li><a class = "foot_link_color" href="contact">Contact</a></li>
                </ul>
             </div>
@@ -229,4 +163,26 @@
          <a class = "foot_link_color" href="http://www.baystardental.com"> baystardental.com</a>
       </div>
    </footer>
+   <script type="text/javascript">
+      (function(){
+      var AMP_KEY="xFXixeEi8qqldqypmM9GbuBzVIdNCmt";window._AMP_CONF=window._AMP_CONF || {};window._AMP_CONF.key=AMP_KEY;
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.simplifeye.co/xFXixeEi8qqldqypmM9GbuBzVIdNCmt/embed';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+   </script>
+<div>
+   <a style='display: block; display:none;' href='https://www.zocdoc.com/practice/bay-star-dental-46062' class='zd-plugin' data-type='book-button' data-practice-id='46062' title='Bay Star Dental'>
+   <img src='https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png' alt='Bay Star Dental' title='Bay Star Dental' style='border: 0'/>
+   </a>
+</div>
+<script>(function (d) {var script = d.createElement('script'); 
+   script.type = 'text/javascript'; script.async = true; 
+   script.src = 'https://offsiteschedule.zocdoc.com/plugin/embed';
+   var s = d.getElementsByTagName('script')[0]; 
+   s.parentNode.insertBefore(script, s);})(document);
+</script>
 </body>

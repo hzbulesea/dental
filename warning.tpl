@@ -44,9 +44,6 @@
                <a class="nav-link tab_width" href="member">Membership</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link tab_width" href="review">Reviews</a>
-            </li>
-            <li class="nav-item">
                <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
             <li class="nav-item">
@@ -176,9 +173,6 @@
                </li>
                <li>
                   <a class = "foot_link_color" href="member">Membership</a>
-               </li>
-               <li>
-                  <a class = "foot_link_color" href="review">Reviews</a>
                </li>
                <li>
                   <a class = "foot_link_color" href="contact">Contact</a>

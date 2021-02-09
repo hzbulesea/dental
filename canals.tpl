@@ -32,7 +32,7 @@
                   <a class="dropdown-item" href="compre">Comprehensive Care</a>
                   <a class="dropdown-item" href="veneers">Dental Veneers, Crowns & Bridges</a>
                   <a class="dropdown-item" href="emergency">Emergency Care</a>
-                  <a class="dropdown-item" href="#">Oral Surgery</a>
+                  <a class="dropdown-item" href="surgery">Oral Surgery</a>
                   <a class="dropdown-item" href="implants">Implants</a>
                   <a class="dropdown-item active" href="#">Root Canals</a>
                   <a class="dropdown-item" href="whitening">Teeth Whitening</a>
@@ -44,13 +44,10 @@
                <a class="nav-link tab_width" href="member">Membership</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link tab_width" href="review">Reviews</a>
-            </li>
-            <li class="nav-item">
                <a class="nav-link tab_width" href="contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
+               <a href="tel:650-342-8874" class="tab_width"><img src="/images/icons8-phone-25.png"></a>
             </li>
          </ul>
       </div>
@@ -90,109 +87,130 @@
       </a>
    </div>
    <main role="main">
-   <section id = "section_margin_bt" class="jumbotron text-center">
-      <div class="container">
-         <h1 class="jumbotron-heading service_text_align">Root Canal</h1>
-         <br/>
-         <h3 class="lead text-muted service_text_side_title">What is a Root Canal?</h3>
-         <h5 class="lead text-muted service_text_align">
-            Root canal therapy is needed when the nerve of a tooth is affected by decay or infection. In order to save the tooth, the pulp (the living tissue inside the tooth), nerves, bacteria, and any decay are removed and the resulting space is filled with special, medicated, dental materials, which restore the tooth to its full function.
-         </h5>
-         <br/>
-         <h5 class="lead text-muted service_text_align">
-            Having a root canal done on a tooth is the treatment of choice to save a tooth that otherwise would die and have to be removed.  Many patients believe that removing a tooth that has problems is the solution, but what is not realized is that extracting (pulling) a tooth will ultimately be more costly and cause significant problems for adjacent teeth.
-         </h5>
-         <br/><br/>
-         <h3 class="lead text-muted service_text_side_title ">What To Expect</h3>
-         <h5 class="lead text-muted service_text_align">
-            A root canal can be performed in a single or multiple visits. Our pre-treatment preparation ensures that both the tooth and the affected area are fully anesthetized for the entire procedure. In most cases, once the tooth is repaired we recommend protecting it with a porcelain crown to prevent fracture. 
-         </h5>
-      </div>
-   </section>
-            <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
-         <script>kleerWidget.init("ZK6C", "light")</script>
+      <section id = "section_margin_bt" class="jumbotron text-center">
+         <div class="container">
+            <h1 class="jumbotron-heading service_text_align">Root Canal</h1>
+            <br/>
+            <h3 class="lead text-muted service_text_side_title">What is a Root Canal?</h3>
+            <h5 class="lead text-muted service_text_align">
+               Root canal therapy is needed when the nerve of a tooth is affected by decay or infection. In order to save the tooth, the pulp (the living tissue inside the tooth), nerves, bacteria, and any decay are removed and the resulting space is filled with special, medicated, dental materials, which restore the tooth to its full function.
+            </h5>
+            <br/>
+            <h5 class="lead text-muted service_text_align">
+               Having a root canal done on a tooth is the treatment of choice to save a tooth that otherwise would die and have to be removed.  Many patients believe that removing a tooth that has problems is the solution, but what is not realized is that extracting (pulling) a tooth will ultimately be more costly and cause significant problems for adjacent teeth.
+            </h5>
+            <br/><br/>
+            <h3 class="lead text-muted service_text_side_title ">What To Expect</h3>
+            <h5 class="lead text-muted service_text_align">
+               A root canal can be performed in a single or multiple visits. Our pre-treatment preparation ensures that both the tooth and the affected area are fully anesthetized for the entire procedure. In most cases, once the tooth is repaired we recommend protecting it with a porcelain crown to prevent fracture.
+            </h5>
+         </div>
+      </section>
+      <script id="kleer-dentist-widget-script" src="https://member.kleer.com/assets/widget/kleer.widget.js"></script>
+      <script>kleerWidget.init("ZK6C", "light")</script>
    </main>
    <footer class="page-footer font-small blue pt-4" style="background-color: #4cdbff; color:rgba(255, 255, 255, 0.7);">
-   <!-- Footer Links -->
-   <div class="container-fluid text-md-left">
-      <!-- Grid row -->
-      <div class="row">
-         <!-- Grid column -->
-         <div class="col-md-5 mt-md-0 mt-3">
-            <!-- Content -->
-            <h5 class="text-uppercase"><b>CONTACT</b></h5>
-            <p>406 N San Mateo Dr. Suite B, San Mateo, CA94401<br/>650-342-8874</p>
-         </div>
-         <!-- Grid column -->
-         <hr class="clearfix w-100 d-md-none pb-3">
-         <!-- Grid column -->
-         <div class="col mb-md-0 mb-3">
-            <!-- Links -->
-            <h5 class="text-uppercase">SERVICES</h5>
-            <div class="row">
-            <div class="col">
-            <ul class="list-unstyled">
-               <li>
-                  <a class = "foot_link_color" href="compre">Comprehensive Care</a>
-               </li>
-               <li>
-                  <a  class = "foot_link_color" href="veneers">Dental Veneers, Crowns & Bridges</a>
-               </li>
-               <li>
-                  <a  class = "foot_link_color" href="emergency">Emergency Care</a>
-               </li>
-               <li>
-                  <a  class = "foot_link_color" href="surgery">Oral Surgery</a>
-               </li>
-            </ul>
+      <!-- Footer Links -->
+      <div class="container-fluid text-md-left">
+         <!-- Grid row -->
+         <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-5 mt-md-0 mt-3">
+               <!-- Content -->
+               <h5 class="text-uppercase"><b>CONTACT</b></h5>
+               <p>406 N San Mateo Dr. Suite B, San Mateo, CA94401<br/>650-342-8874</p>
             </div>
-            <div class="col">
-            <ul class="list-unstyled">
-               <li>
-                  <a  class = "foot_link_color" href="implants">Implants</a>
-               </li>
-               <li>
-                  <a  class = "foot_link_color" href="canals">Root Canals</a>
-               </li>
-               <li>
-                  <a  class = "foot_link_color" href="whitening">Teeth Whitening</a>
-               </li>
-               <li>
-                  <a  class = "foot_link_color" href="filings">White Filings</a>
-               </li>
-            </ul>
+            <!-- Grid column -->
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <!-- Grid column -->
+            <div class="col mb-md-0 mb-3">
+               <!-- Links -->
+               <h5 class="text-uppercase">SERVICES</h5>
+               <div class="row">
+                  <div class="col">
+                     <ul class="list-unstyled">
+                        <li>
+                           <a class = "foot_link_color" href="compre">Comprehensive Care</a>
+                        </li>
+                        <li>
+                           <a  class = "foot_link_color" href="veneers">Dental Veneers, Crowns & Bridges</a>
+                        </li>
+                        <li>
+                           <a  class = "foot_link_color" href="emergency">Emergency Care</a>
+                        </li>
+                        <li>
+                           <a  class = "foot_link_color" href="surgery">Oral Surgery</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col">
+                     <ul class="list-unstyled">
+                        <li>
+                           <a  class = "foot_link_color" href="implants">Implants</a>
+                        </li>
+                        <li>
+                           <a  class = "foot_link_color" href="canals">Root Canals</a>
+                        </li>
+                        <li>
+                           <a  class = "foot_link_color" href="whitening">Teeth Whitening</a>
+                        </li>
+                        <li>
+                           <a  class = "foot_link_color" href="filings">White Filings</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 mb-md-0 mb-3">
+               <!-- Links -->
+               <h5 class="text-uppercase">Links</h5>
+               <ul class="list-unstyled">
+                  <li>
+                     <a class = "foot_link_color" href="about">About</a>
+                  </li>
+                  <li>
+                     <a class = "foot_link_color" href="member">Membership</a>
+                  </li>
+                  <li>
+                     <a class = "foot_link_color" href="contact">Contact</a>
+                  </li>
+               </ul>
             </div>
+            <!-- Grid column -->
          </div>
-         <!-- Grid column -->
-         <!-- Grid column -->
-         <div class="col-md-2 mb-md-0 mb-3">
-            <!-- Links -->
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled">
-               <li>
-                  <a class = "foot_link_color" href="about">About</a>
-               </li>
-               <li>
-                  <a class = "foot_link_color" href="member">Membership</a>
-               </li>
-               <li>
-                  <a class = "foot_link_color" href="review">Reviews</a>
-               </li>
-               <li>
-                  <a class = "foot_link_color" href="contact">Contact</a>
-               </li>
-            </ul>
-         </div>
-         <!-- Grid column -->
+         <!-- Grid row -->
       </div>
-      <!-- Grid row -->
-   </div>
-   <!-- Footer Links -->
-   <!-- Copyright -->
-   <div class="footer-copyright text-center py-3" style="background-color: #00ccff;">© 2020 Copyright:
-      <a class = "foot_link_color" href="http://www.baystardental.com"> baystardental.com</a>
-   </div>
-   <!-- Copyright -->
-</footer>
+      <!-- Footer Links -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3" style="background-color: #00ccff;">© 2020 Copyright:
+         <a class = "foot_link_color" href="http://www.baystardental.com"> baystardental.com</a>
+      </div>
+      <!-- Copyright -->
+   </footer>
+   <script type="text/javascript">
+      (function(){
+      var AMP_KEY="xFXixeEi8qqldqypmM9GbuBzVIdNCmt";window._AMP_CONF=window._AMP_CONF || {};window._AMP_CONF.key=AMP_KEY;
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.simplifeye.co/xFXixeEi8qqldqypmM9GbuBzVIdNCmt/embed';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+   </script>
+   <div>
+   <a style='display: block; display:none;' href='https://www.zocdoc.com/practice/bay-star-dental-46062' class='zd-plugin' data-type='book-button' data-practice-id='46062' title='Bay Star Dental'>
+   <img src='https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png' alt='Bay Star Dental' title='Bay Star Dental' style='border: 0'/>
+   </a>
+</div>
+   <script>
+      (function (d) {var script = d.createElement('script'); 
+      script.type = 'text/javascript'; script.async = true; 
+      script.src = 'https://offsiteschedule.zocdoc.com/plugin/embed';
+      var s = d.getElementsByTagName('script')[0]; 
+      s.parentNode.insertBefore(script, s);
+      })(document);
+   </script>
 </body>
